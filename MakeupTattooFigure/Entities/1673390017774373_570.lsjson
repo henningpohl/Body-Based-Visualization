@@ -1,0 +1,79 @@
+{
+    "1563518772795809:170706": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "3072",
+                        "uncompressed_hash": "ea6f0d0937dd4f8807eada3641159adb"
+                    },
+                    "v": "1673390017774526:713"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "668928",
+                "compressedSize": "7535",
+                "extension": "jpg",
+                "originalRAM": "668928",
+                "originalSize": "7535",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "3",
+                    "subtype": "9",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1673390017774515:704"
+        }
+    },
+    "1673390017774373:570": {
+        "IResourceController": {
+            "name": "mask_eyeshadow_3",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1563518772795809:170706",
+            "fileId": "1673390017774391:607",
+            "originalId": "1673390017774469:660",
+            "publicId": "1673390017774540:726",
+            "expected_hash": "ea6f0d0937dd4f8807eada3641159adb",
+            "additional": {
+                "originHash": "ea6f0d0937dd4f8807eada3641159adb"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1563518772795809:170706",
+            "name": "Files/File_1673390017774391_607.jpg",
+            "flags": 1
+        }
+    },
+    "1673390017774391:607": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774391_607.jpg"
+        }
+    },
+    "1673390017774469:660": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774469_660.jpg"
+        }
+    },
+    "1673390017774515:704": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774515_704.jpg"
+        }
+    },
+    "1673390017774526:713": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774526_713.jpg"
+        }
+    },
+    "1673390017774540:726": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/mask_eyeshadow_3.jpg",
+                "hash": "ea6f0d0937dd4f8807eada3641159adb"
+            }
+        }
+    }
+}

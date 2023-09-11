@@ -1,0 +1,79 @@
+{
+    "1560294564601149:129648": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "3072",
+                        "uncompressed_hash": "15872e427e708b1b4dd55ac499dac441"
+                    },
+                    "v": "1673390017774521:709"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "469248",
+                "compressedSize": "1620",
+                "extension": "jpg",
+                "originalRAM": "469248",
+                "originalSize": "1620",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "3",
+                    "subtype": "9",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1673390017774512:701"
+        }
+    },
+    "1673390017774370:565": {
+        "IResourceController": {
+            "name": "mask_eyeliner",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1560294564601149:129648",
+            "fileId": "1673390017774376:596",
+            "originalId": "1673390017774466:657",
+            "publicId": "1673390017774538:719",
+            "expected_hash": "15872e427e708b1b4dd55ac499dac441",
+            "additional": {
+                "originHash": "15872e427e708b1b4dd55ac499dac441"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1560294564601149:129648",
+            "name": "/Resources/Resource35.jpg",
+            "flags": 1
+        }
+    },
+    "1673390017774376:596": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774376_596.jpg"
+        }
+    },
+    "1673390017774466:657": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774466_657.jpg"
+        }
+    },
+    "1673390017774512:701": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774512_701.jpg"
+        }
+    },
+    "1673390017774521:709": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774521_709.jpg"
+        }
+    },
+    "1673390017774538:719": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/mask_eyeliner.jpg",
+                "hash": "15872e427e708b1b4dd55ac499dac441"
+            }
+        }
+    }
+}

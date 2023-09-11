@@ -1,0 +1,79 @@
+{
+    "1560372455182087:17679": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "3072",
+                        "uncompressed_hash": "d6ac35e1b34f1805ae24d8bff8114615"
+                    },
+                    "v": "1673390017774522:710"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "1327872",
+                "compressedSize": "3389",
+                "extension": "jpg",
+                "originalRAM": "1327872",
+                "originalSize": "3389",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "3",
+                    "subtype": "9",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1673390017774509:699"
+        }
+    },
+    "1673390017774373:566": {
+        "IResourceController": {
+            "name": "mask_blush",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1560372455182087:17679",
+            "fileId": "1673390017774382:598",
+            "originalId": "1673390017774464:655",
+            "publicId": "1673390017774538:720",
+            "expected_hash": "d6ac35e1b34f1805ae24d8bff8114615",
+            "additional": {
+                "originHash": "d6ac35e1b34f1805ae24d8bff8114615"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1560372455182087:17679",
+            "name": "Files/File_1673390017774382_598.jpg",
+            "flags": 1
+        }
+    },
+    "1673390017774382:598": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774382_598.jpg"
+        }
+    },
+    "1673390017774464:655": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774464_655.jpg"
+        }
+    },
+    "1673390017774509:699": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774509_699.jpg"
+        }
+    },
+    "1673390017774522:710": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774522_710.jpg"
+        }
+    },
+    "1673390017774538:720": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/mask_blush.jpg",
+                "hash": "d6ac35e1b34f1805ae24d8bff8114615"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "1585273197086665:83786": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1673390017774374:574": {
+        "IResourceController": {
+            "name": "LipsController",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1585273197086665:83786",
+            "fileId": "1673390017774458:650",
+            "publicId": "1673390017774542:733",
+            "expected_hash": "b029ba047138517bed5ef4ff4e50c593"
+        },
+        "IResourceManager": {
+            "uid": "1585273197086665:83786",
+            "name": "Files/File_1673390017774458_650.js",
+            "flags": 1
+        }
+    },
+    "1673390017774458:650": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774458_650.js"
+        }
+    },
+    "1673390017774542:733": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/LipsController.js",
+                "hash": "b029ba047138517bed5ef4ff4e50c593"
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "1585276987552009:434517": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "3072",
+                        "uncompressed_hash": "98c985a75a962474a93c3a757c113806"
+                    },
+                    "v": "1673390017774530:717"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "123816",
+                "compressedSize": "3054",
+                "extension": "jpg",
+                "originalRAM": "123816",
+                "originalSize": "3054",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "3",
+                    "subtype": "9",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1673390017774519:707"
+        }
+    },
+    "1673390017774374:575": {
+        "IResourceController": {
+            "name": "mask_lips_closed",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1585276987552009:434517",
+            "fileId": "1673390017774460:651",
+            "originalId": "1673390017774461:652",
+            "publicId": "1673390017774543:734",
+            "expected_hash": "98c985a75a962474a93c3a757c113806",
+            "additional": {
+                "originHash": "98c985a75a962474a93c3a757c113806"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1585276987552009:434517",
+            "name": "Files/File_1673390017774460_651.jpg",
+            "flags": 1
+        }
+    },
+    "1673390017774460:651": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774460_651.jpg"
+        }
+    },
+    "1673390017774461:652": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774461_652.jpg"
+        }
+    },
+    "1673390017774519:707": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774519_707.jpg"
+        }
+    },
+    "1673390017774530:717": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774530_717.jpg"
+        }
+    },
+    "1673390017774543:734": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/mask_lips_closed.jpg",
+                "hash": "98c985a75a962474a93c3a757c113806"
+            }
+        }
+    }
+}

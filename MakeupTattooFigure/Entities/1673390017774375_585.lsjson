@@ -1,0 +1,42 @@
+{
+    "1673390017774375:585": {
+        "IResourceController": {
+            "name": "Lipgloss0",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1611887393452646:928451",
+            "fileId": "1673390017774489:679",
+            "originalId": "1673390017774490:680",
+            "publicId": "1673390017774546:744",
+            "expected_hash": "f696a7edccfb5c2624ae1a21ce02f423",
+            "additional": {
+                "isUnpackedInPublic": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1611887393452646:928451",
+            "name": "Files/File_1673390017774489_679",
+            "flags": 1
+        }
+    },
+    "1673390017774489:679": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774489_679"
+        }
+    },
+    "1673390017774490:680": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774490_680.lsmat"
+        }
+    },
+    "1673390017774546:744": {
+        "IResourceController": {
+            "public": {
+                "path": "Materials/Face_0/Lipgloss0.lsmat",
+                "hash": "5d07683f82bb73a7851972e3c59ec5ea"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "1563555395639695:135338": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1673390017774374:573": {
+        "IResourceController": {
+            "name": "MakeupController",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1563555395639695:135338",
+            "fileId": "1673390017774397:613",
+            "publicId": "1673390017774542:730",
+            "expected_hash": "1439d873f869f14ed32eddac5a1fc0e3"
+        },
+        "IResourceManager": {
+            "uid": "1563555395639695:135338",
+            "name": "Files/File_1673390017774397_613.js",
+            "flags": 1
+        }
+    },
+    "1673390017774397:613": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774397_613.js"
+        }
+    },
+    "1673390017774542:730": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/MakeupController.js",
+                "hash": "1439d873f869f14ed32eddac5a1fc0e3"
+            }
+        }
+    }
+}

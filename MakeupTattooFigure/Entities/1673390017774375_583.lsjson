@@ -1,0 +1,42 @@
+{
+    "1673390017774375:583": {
+        "IResourceController": {
+            "name": "Eyebrows0",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1611887255963272:901196",
+            "fileId": "1673390017774485:675",
+            "originalId": "1673390017774486:676",
+            "publicId": "1673390017774546:742",
+            "expected_hash": "f696a7edccfb5c2624ae1a21ce02f423",
+            "additional": {
+                "isUnpackedInPublic": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1611887255963272:901196",
+            "name": "Files/File_1673390017774485_675",
+            "flags": 1
+        }
+    },
+    "1673390017774485:675": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774485_675"
+        }
+    },
+    "1673390017774486:676": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774486_676.lsmat"
+        }
+    },
+    "1673390017774546:742": {
+        "IResourceController": {
+            "public": {
+                "path": "Materials/Face_0/Eyebrows0.lsmat",
+                "hash": "7b1ac742ffc27e51b6b9d69ca6661f1c"
+            }
+        }
+    }
+}

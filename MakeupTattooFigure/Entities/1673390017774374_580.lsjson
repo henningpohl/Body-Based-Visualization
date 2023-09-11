@@ -1,0 +1,42 @@
+{
+    "1673390017774374:580": {
+        "IResourceController": {
+            "name": "Eyeshadows0_2",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1611886900639456:815808",
+            "fileId": "1673390017774479:669",
+            "originalId": "1673390017774480:670",
+            "publicId": "1673390017774544:739",
+            "expected_hash": "f696a7edccfb5c2624ae1a21ce02f423",
+            "additional": {
+                "isUnpackedInPublic": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1611886900639456:815808",
+            "name": "Files/File_1673390017774479_669",
+            "flags": 1
+        }
+    },
+    "1673390017774479:669": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774479_669"
+        }
+    },
+    "1673390017774480:670": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774480_670.lsmat"
+        }
+    },
+    "1673390017774544:739": {
+        "IResourceController": {
+            "public": {
+                "path": "Materials/Face_0/Eyeshadows0_2.lsmat",
+                "hash": "3a889068bd3c43ed892b1b1b3437077b"
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "1673390017774374:577": {
+        "IResourceController": {
+            "name": "Blush0",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1611885248731195:546895",
+            "fileId": "1673390017774472:663",
+            "originalId": "1673390017774474:664",
+            "publicId": "1673390017774543:736",
+            "expected_hash": "f696a7edccfb5c2624ae1a21ce02f423",
+            "additional": {
+                "isUnpackedInPublic": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1611885248731195:546895",
+            "name": "Files/File_1673390017774472_663",
+            "flags": 1
+        }
+    },
+    "1673390017774472:663": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774472_663"
+        }
+    },
+    "1673390017774474:664": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774474_664.lsmat"
+        }
+    },
+    "1673390017774543:736": {
+        "IResourceController": {
+            "public": {
+                "path": "Materials/Face_0/Blush0.lsmat",
+                "hash": "92ab45b43dfa48941586e39d61ff4688"
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "1673390017774374:578": {
+        "IResourceController": {
+            "name": "Eyeliner0",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1611886557248618:753800",
+            "fileId": "1673390017774475:665",
+            "originalId": "1673390017774476:666",
+            "publicId": "1673390017774544:737",
+            "expected_hash": "f696a7edccfb5c2624ae1a21ce02f423",
+            "additional": {
+                "isUnpackedInPublic": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1611886557248618:753800",
+            "name": "Files/File_1673390017774475_665",
+            "flags": 1
+        }
+    },
+    "1673390017774475:665": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774475_665"
+        }
+    },
+    "1673390017774476:666": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774476_666.lsmat"
+        }
+    },
+    "1673390017774544:737": {
+        "IResourceController": {
+            "public": {
+                "path": "Materials/Face_0/Eyeliner0.lsmat",
+                "hash": "e0afc5650714492817efd285328b27d9"
+            }
+        }
+    }
+}

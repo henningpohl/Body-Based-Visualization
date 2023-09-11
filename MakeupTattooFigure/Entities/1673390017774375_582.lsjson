@@ -1,0 +1,42 @@
+{
+    "1673390017774375:582": {
+        "IResourceController": {
+            "name": "Eyelashes0",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1611887133286883:870114",
+            "fileId": "1673390017774483:673",
+            "originalId": "1673390017774484:674",
+            "publicId": "1673390017774545:741",
+            "expected_hash": "f696a7edccfb5c2624ae1a21ce02f423",
+            "additional": {
+                "isUnpackedInPublic": "false"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1611887133286883:870114",
+            "name": "Files/File_1673390017774483_673",
+            "flags": 1
+        }
+    },
+    "1673390017774483:673": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774483_673"
+        }
+    },
+    "1673390017774484:674": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774484_674.lsmat"
+        }
+    },
+    "1673390017774545:741": {
+        "IResourceController": {
+            "public": {
+                "path": "Materials/Face_0/Eyelashes0.lsmat",
+                "hash": "2a2aa6feb109c27883e2d11f52c7a488"
+            }
+        }
+    }
+}

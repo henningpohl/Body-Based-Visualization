@@ -1,0 +1,79 @@
+{
+    "1563514786230353:227859": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "3072",
+                        "uncompressed_hash": "6dd02382fa6297cb4b09134352452631"
+                    },
+                    "v": "1673390017774528:715"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "519168",
+                "compressedSize": "6324",
+                "extension": "jpg",
+                "originalRAM": "519168",
+                "originalSize": "5408",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "3",
+                    "subtype": "9",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1673390017774513:702"
+        }
+    },
+    "1673390017774373:569": {
+        "IResourceController": {
+            "name": "mask_lip_gloss",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1563514786230353:227859",
+            "fileId": "1673390017774389:605",
+            "originalId": "1673390017774467:658",
+            "publicId": "1673390017774540:725",
+            "expected_hash": "684f87171a0b5d35a22ade4b4d0c25b8",
+            "additional": {
+                "originHash": "6dd02382fa6297cb4b09134352452631"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1563514786230353:227859",
+            "name": "Files/File_1673390017774389_605.jpg",
+            "flags": 1
+        }
+    },
+    "1673390017774389:605": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774389_605.jpg"
+        }
+    },
+    "1673390017774467:658": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774467_658.jpg"
+        }
+    },
+    "1673390017774513:702": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774513_702.jpg"
+        }
+    },
+    "1673390017774528:715": {
+        "IFileManager": {
+            "path": "Files/File_1673390017774528_715.jpg"
+        }
+    },
+    "1673390017774540:725": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/mask_lip_gloss.jpg",
+                "hash": "6dd02382fa6297cb4b09134352452631"
+            }
+        }
+    }
+}
