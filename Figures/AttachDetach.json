@@ -1,0 +1,12 @@
+{
+	"width": 3.3,
+	"height": "auto",
+	"grid": [5, 1],
+	"images": [
+		{"src": "AttachDetach0.jpg", "crop": [400, 400, 500, 500]},
+		{"src": "AttachDetach1.jpg", "crop": [400, 400, 500, 500]},
+		{"src": "AttachDetach2.jpg", "crop": [400, 400, 500, 500]},
+		{"src": "AttachDetach3.jpg", "crop": [400, 400, 500, 500]},
+		{"src": "AttachDetach4.jpg", "crop": [400, 400, 500, 500]}
+	]
+}
