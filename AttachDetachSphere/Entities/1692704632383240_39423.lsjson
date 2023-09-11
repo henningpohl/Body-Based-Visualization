@@ -1,0 +1,42 @@
+{
+    "1692704632381291:39422": {
+        "IFileManager": {
+            "path": "Files/File_1692704632381291_39422.png"
+        }
+    },
+    "1692704632383240:39423": {
+        "IResourceController": {
+            "name": "MaterialParams",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1692704632384249:39424",
+            "fileId": "1692704632381291:39422",
+            "originalId": "1692704632384581:39429",
+            "publicId": "1692704632394620:39437",
+            "expected_hash": "af2715bddfbca2d4e72f470d285c5010",
+            "additional": {
+                "originHash": "af2715bddfbca2d4e72f470d285c5010"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1692704632384249:39424",
+            "name": "Files/File_1692704632381291_39422.jpg",
+            "flags": 1
+        }
+    },
+    "1692704632384581:39429": {
+        "IFileManager": {
+            "path": "Files/File_1692704632384581_39429.png"
+        }
+    },
+    "1692704632394620:39437": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/MaterialParams.png",
+                "hash": "af2715bddfbca2d4e72f470d285c5010"
+            }
+        }
+    }
+}

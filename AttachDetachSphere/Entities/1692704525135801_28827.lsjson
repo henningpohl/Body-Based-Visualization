@@ -1,0 +1,39 @@
+{
+    "1692704525134289:28826": {
+        "IFileManager": {
+            "path": "Files/File_1692704525134289_28826"
+        }
+    },
+    "1692704525135801:28827": {
+        "IResourceController": {
+            "name": "Simple PBR",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1692704525135805:28828",
+            "fileId": "1692704525134289:28826",
+            "originalId": "1692704525160775:28834",
+            "publicId": "1692704525441827:28916",
+            "expected_hash": "dc556faebc9e657f571878a7975efdd3"
+        },
+        "IResourceManager": {
+            "uid": "1692704525135805:28828",
+            "name": "Files/File_1692704525134289_28826",
+            "flags": 1
+        }
+    },
+    "1692704525160775:28834": {
+        "IFileManager": {
+            "path": "Files/File_1692704525160775_28834.lsmat"
+        }
+    },
+    "1692704525441827:28916": {
+        "IResourceController": {
+            "public": {
+                "path": "Simple PBR.lsmat",
+                "hash": "ebb15ba3025f70174d623b2f7913ac7b"
+            }
+        }
+    }
+}

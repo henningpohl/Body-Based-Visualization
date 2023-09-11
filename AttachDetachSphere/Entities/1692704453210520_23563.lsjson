@@ -1,0 +1,39 @@
+{
+    "1692704453209018:23562": {
+        "IFileManager": {
+            "path": "Files/File_1692704453209018_23562"
+        }
+    },
+    "1692704453210520:23563": {
+        "IResourceController": {
+            "name": "FaceUnlit",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1692704453210524:23564",
+            "fileId": "1692704453209018:23562",
+            "originalId": "1692704453235266:23570",
+            "publicId": "1692704453494383:23610",
+            "expected_hash": "0765a7ae5899908394ee9f7b034a623c"
+        },
+        "IResourceManager": {
+            "uid": "1692704453210524:23564",
+            "name": "Files/File_1692704453209018_23562",
+            "flags": 1
+        }
+    },
+    "1692704453235266:23570": {
+        "IFileManager": {
+            "path": "Files/File_1692704453235266_23570.lsmat"
+        }
+    },
+    "1692704453494383:23610": {
+        "IResourceController": {
+            "public": {
+                "path": "FaceUnlit.lsmat",
+                "hash": "23f02ef630b733e0bd20ba7a0fe05990"
+            }
+        }
+    }
+}

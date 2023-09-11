@@ -1,0 +1,17 @@
+{
+    "1692704632203114:39324": {
+        "IResourceController": {
+            "name": "Face Mesh",
+            "type": 3,
+            "subtype": 2,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1692704632203108:39323"
+        },
+        "IResourceManager": {
+            "uid": "1692704632203108:39323",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

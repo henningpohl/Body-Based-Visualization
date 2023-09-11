@@ -1,0 +1,38 @@
+{
+    "1692705614953636:107718": {
+        "IFileManager": {
+            "path": "Files/File_1692705614953636_107718.js"
+        }
+    },
+    "1692705614956014:107719": {
+        "IResourceController": {
+            "name": "SphereAnimation",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1692705614956029:107720",
+            "fileId": "1692705614953636:107718",
+            "publicId": "1692705614964169:107725",
+            "expected_hash": "559b23a4e9c0248bd171c5909dcab472"
+        },
+        "IResourceManager": {
+            "uid": "1692705614956029:107720",
+            "name": "Files/File_1692705614953636_107718.js",
+            "flags": 1
+        }
+    },
+    "1692705614956029:107720": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1692705614964169:107725": {
+        "IResourceController": {
+            "public": {
+                "path": "SphereAnimation.js",
+                "hash": "559b23a4e9c0248bd171c5909dcab472"
+            }
+        }
+    }
+}

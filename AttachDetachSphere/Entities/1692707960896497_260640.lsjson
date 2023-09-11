@@ -1,0 +1,39 @@
+{
+    "1692707960894958:260639": {
+        "IFileManager": {
+            "path": "Files/File_1692707960894958_260639"
+        }
+    },
+    "1692707960896497:260640": {
+        "IResourceController": {
+            "name": "Graph Matte Shadow",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1692707960896502:260641",
+            "fileId": "1692707960894958:260639",
+            "originalId": "1692707960921672:260647",
+            "publicId": "1692707961059538:260654",
+            "expected_hash": "2b99e7539c4d919987e531debfccc0af"
+        },
+        "IResourceManager": {
+            "uid": "1692707960896502:260641",
+            "name": "Files/File_1692707960894958_260639",
+            "flags": 1
+        }
+    },
+    "1692707960921672:260647": {
+        "IFileManager": {
+            "path": "Files/File_1692707960921672_260647.lsmat"
+        }
+    },
+    "1692707961059538:260654": {
+        "IResourceController": {
+            "public": {
+                "path": "Graph Matte Shadow.lsmat",
+                "hash": "7eebb296d907c6ed484b1d97450aeb0a"
+            }
+        }
+    }
+}

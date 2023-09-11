@@ -1,0 +1,38 @@
+{
+    "1692712789251931:557832": {
+        "IFileManager": {
+            "path": "Files/File_1692712789251931_557832.js"
+        }
+    },
+    "1692712789254300:557833": {
+        "IResourceController": {
+            "name": "SpherePositions",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1692712789254316:557834",
+            "fileId": "1692712789251931:557832",
+            "publicId": "1692712789263453:557839",
+            "expected_hash": "f784d69e11b540651c844dc02d4ab41a"
+        },
+        "IResourceManager": {
+            "uid": "1692712789254316:557834",
+            "name": "Files/File_1692712789251931_557832.js",
+            "flags": 1
+        }
+    },
+    "1692712789254316:557834": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1692712789263453:557839": {
+        "IResourceController": {
+            "public": {
+                "path": "SpherePositions.js",
+                "hash": "f784d69e11b540651c844dc02d4ab41a"
+            }
+        }
+    }
+}
