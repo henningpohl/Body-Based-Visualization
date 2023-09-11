@@ -1,0 +1,22 @@
+{
+    "1694460860271573:212444": {
+        "IResourceController": {
+            "name": "Name Badge",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1694460860271752:212445",
+            "resources": [
+                "1694459162460114:94193"
+            ]
+        }
+    },
+    "1694460860271752:212445": {
+        "IResourceController": {
+            "public": {
+                "path": "Name Badge"
+            }
+        }
+    }
+}

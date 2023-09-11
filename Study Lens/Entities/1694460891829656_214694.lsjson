@@ -1,0 +1,38 @@
+{
+    "1694460891826898:214692": {
+        "IResourceController": {
+            "public": {
+                "path": "Emotion Tracker/EmotionTracker.js",
+                "hash": "695c6e58c1c2c87e99c5480bfcb0cbae"
+            }
+        }
+    },
+    "1694460891827398:214693": {
+        "IFileManager": {
+            "path": "Files/File_1694460891827398_214693.js"
+        }
+    },
+    "1694460891829656:214694": {
+        "IResourceController": {
+            "name": "EmotionTracker",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694460891829667:214695",
+            "fileId": "1694460891827398:214693",
+            "publicId": "1694460891826898:214692",
+            "expected_hash": "695c6e58c1c2c87e99c5480bfcb0cbae"
+        },
+        "IResourceManager": {
+            "uid": "1694460891829667:214695",
+            "name": "Files/File_1694460891827398_214693.js",
+            "flags": 1
+        }
+    },
+    "1694460891829667:214695": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

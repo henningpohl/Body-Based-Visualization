@@ -1,0 +1,39 @@
+{
+    "1694460984034047:222097": {
+        "IFileManager": {
+            "path": "Files/File_1694460984034047_222097"
+        }
+    },
+    "1694460984035653:222098": {
+        "IResourceController": {
+            "name": "Face Mesh Transparent",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694460984035657:222099",
+            "fileId": "1694460984034047:222097",
+            "originalId": "1694460984058676:222103",
+            "publicId": "1694460984515486:222224",
+            "expected_hash": "26a59aede42dba75a7f68a0a9b41a485"
+        },
+        "IResourceManager": {
+            "uid": "1694460984035657:222099",
+            "name": "Files/File_1694460984034047_222097",
+            "flags": 1
+        }
+    },
+    "1694460984058676:222103": {
+        "IFileManager": {
+            "path": "Files/File_1694460984058676_222103.lsmat"
+        }
+    },
+    "1694460984515486:222224": {
+        "IResourceController": {
+            "public": {
+                "path": "Emotion Tracker/Face Mesh Transparent.lsmat",
+                "hash": "81e9fced1a206624f47390d4fc385413"
+            }
+        }
+    }
+}

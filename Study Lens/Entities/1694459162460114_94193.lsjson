@@ -1,0 +1,79 @@
+{
+    "1694459162451032:94189": {
+        "IResourceController": {
+            "public": {
+                "path": "Name Badge/Badge.png",
+                "hash": "3e9ef1f3dfe3502a476f6a1490b32833"
+            }
+        }
+    },
+    "1694459162457315:94191": {
+        "IFileManager": {
+            "path": "Files/File_1694459162457315_94191.pvr"
+        }
+    },
+    "1694459162460114:94193": {
+        "IResourceController": {
+            "name": "Badge",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694459162464751:94194",
+            "fileId": "1694459162457315:94191",
+            "originalId": "1694459162466784:94199",
+            "publicId": "1694459162451032:94189",
+            "expected_hash": "48a4586a82d1492ec62286900dffeac8",
+            "additional": {
+                "originHash": "3e9ef1f3dfe3502a476f6a1490b32833"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1694459162464751:94194",
+            "name": "Files/File_1694459162457315_94191.png",
+            "flags": 1
+        }
+    },
+    "1694459162464751:94194": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "3e9ef1f3dfe3502a476f6a1490b32833"
+                    },
+                    "v": "1694459165078202:94810"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "262144",
+                "compressedSize": "6851",
+                "extension": "png",
+                "originalRAM": "2097152",
+                "originalSize": "12569",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1694459162469777:94200"
+        }
+    },
+    "1694459162466784:94199": {
+        "IFileManager": {
+            "path": "Files/File_1694459162466784_94199.png"
+        }
+    },
+    "1694459162469777:94200": {
+        "IFileManager": {
+            "path": "Files/File_1694459162469777_94200.png"
+        }
+    },
+    "1694459165078202:94810": {
+        "IFileManager": {
+            "path": "Files/File_1694459165078202_94810.pvr"
+        }
+    }
+}

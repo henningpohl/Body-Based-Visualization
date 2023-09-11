@@ -1,0 +1,38 @@
+{
+    "1694459986266565:159204": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/PinToFaceLandmarks.js",
+                "hash": "d83c32d81ad78da22ffbcf08c700b0b3"
+            }
+        }
+    },
+    "1694459986267152:159205": {
+        "IFileManager": {
+            "path": "Files/File_1694459986267152_159205.js"
+        }
+    },
+    "1694459986269263:159206": {
+        "IResourceController": {
+            "name": "PinToFaceLandmarks",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694459986269280:159207",
+            "fileId": "1694459986267152:159205",
+            "publicId": "1694459986266565:159204",
+            "expected_hash": "d83c32d81ad78da22ffbcf08c700b0b3"
+        },
+        "IResourceManager": {
+            "uid": "1694459986269280:159207",
+            "name": "Files/File_1694459986267152_159205.js",
+            "flags": 1
+        }
+    },
+    "1694459986269280:159207": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

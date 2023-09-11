@@ -1,0 +1,17 @@
+{
+    "1694460891628752:214639": {
+        "IResourceController": {
+            "name": "Emoji Texture",
+            "type": 1,
+            "subtype": 8,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694460891628748:214638"
+        },
+        "IResourceManager": {
+            "uid": "1694460891628748:214638",
+            "name": "Text",
+            "flags": 0
+        }
+    }
+}

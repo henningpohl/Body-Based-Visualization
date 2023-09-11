@@ -1,0 +1,38 @@
+{
+    "1694459986274129:159212": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/StudyController.js",
+                "hash": "ed991344692d4bb8af0bce389eb3ddd4"
+            }
+        }
+    },
+    "1694459986274580:159213": {
+        "IFileManager": {
+            "path": "Files/File_1694459986274580_159213.js"
+        }
+    },
+    "1694459986276742:159214": {
+        "IResourceController": {
+            "name": "StudyController",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694459986276759:159215",
+            "fileId": "1694459986274580:159213",
+            "publicId": "1694459986274129:159212",
+            "expected_hash": "ed991344692d4bb8af0bce389eb3ddd4"
+        },
+        "IResourceManager": {
+            "uid": "1694459986276759:159215",
+            "name": "Files/File_1694459986274580_159213.js",
+            "flags": 1
+        }
+    },
+    "1694459986276759:159215": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "1694459447550512:122057": {
+        "IFileManager": {
+            "path": "Files/File_1694459447550512_122057.js"
+        }
+    },
+    "1694459447552890:122058": {
+        "IResourceController": {
+            "name": "OverrideRotation",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694459447552905:122059",
+            "fileId": "1694459447550512:122057",
+            "publicId": "1694459447555094:122064",
+            "expected_hash": "9336ab0ab3a22388bd34b41172b075d2"
+        },
+        "IResourceManager": {
+            "uid": "1694459447552905:122059",
+            "name": "Files/File_1694459447550512_122057.js",
+            "flags": 1
+        }
+    },
+    "1694459447552905:122059": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1694459447555094:122064": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/OverrideRotation.js",
+                "hash": "9336ab0ab3a22388bd34b41172b075d2"
+            }
+        }
+    }
+}

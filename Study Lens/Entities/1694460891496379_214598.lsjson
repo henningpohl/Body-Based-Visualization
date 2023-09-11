@@ -1,0 +1,39 @@
+{
+    "1694460891439362:214579": {
+        "IResourceController": {
+            "public": {
+                "path": "Emotion Tracker/Emoji Material.lsmat",
+                "hash": "968efb29dee7b73530e5513c2f9dc8be"
+            }
+        }
+    },
+    "1694460891494886:214597": {
+        "IFileManager": {
+            "path": "Files/File_1694460891494886_214597"
+        }
+    },
+    "1694460891496379:214598": {
+        "IResourceController": {
+            "name": "Emoji Material",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694460891496384:214599",
+            "fileId": "1694460891494886:214597",
+            "originalId": "1694460891523707:214605",
+            "publicId": "1694460891439362:214579",
+            "expected_hash": "10d7eced5e94409653b32ad1c53abb8b"
+        },
+        "IResourceManager": {
+            "uid": "1694460891496384:214599",
+            "name": "Files/File_1694460891494886_214597",
+            "flags": 1
+        }
+    },
+    "1694460891523707:214605": {
+        "IFileManager": {
+            "path": "Files/File_1694460891523707_214605.lsmat"
+        }
+    }
+}

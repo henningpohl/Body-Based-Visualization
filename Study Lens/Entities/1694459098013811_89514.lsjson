@@ -1,0 +1,25 @@
+{
+    "1694459098013811:89514": {
+        "IResourceController": {
+            "name": "Emotion Tracker",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1694459098013985:89515",
+            "resources": [
+                "1694460891496379:214598",
+                "1694460891829656:214694",
+                "1694460983971848:222069",
+                "1694460984035653:222098"
+            ]
+        }
+    },
+    "1694459098013985:89515": {
+        "IResourceController": {
+            "public": {
+                "path": "Emotion Tracker"
+            }
+        }
+    }
+}
