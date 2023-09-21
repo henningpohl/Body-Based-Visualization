@@ -3,7 +3,7 @@
         "IResourceController": {
             "public": {
                 "path": "Emotion Tracker/Emoji Material.lsmat",
-                "hash": "968efb29dee7b73530e5513c2f9dc8be"
+                "hash": "34a8d946b155c5d50a15614f5df25515"
             }
         }
     },
@@ -23,7 +23,7 @@
             "fileId": "1694460891494886:214597",
             "originalId": "1694460891523707:214605",
             "publicId": "1694460891439362:214579",
-            "expected_hash": "10d7eced5e94409653b32ad1c53abb8b"
+            "expected_hash": "1d1b1b788b6ec1f478c05b73eda969eb"
         },
         "IResourceManager": {
             "uid": "1694460891496384:214599",

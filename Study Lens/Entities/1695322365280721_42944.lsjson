@@ -1,0 +1,115 @@
+{
+    "1695322365278406:42943": {
+        "IFileManager": {
+            "path": "Files/File_1695322365278406_42943.mesh"
+        }
+    },
+    "1695322365280721:42944": {
+        "IResourceController": {
+            "name": "LeftHand",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365292286:42946",
+            "fileId": "1695322365278406:42943",
+            "publicId": "1695322365311330:42960",
+            "expected_hash": "e4f0e98ab8df2947fa8004cb9888602c",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365292286:42946",
+            "name": "Files/File_1695322365278406_42943.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365292286:42946": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "7560",
+                "compressedSize": "3863",
+                "extension": "mesh",
+                "originalRAM": "7560",
+                "originalSize": "3863",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365302007:42957"
+        }
+    },
+    "1695322365302007:42957": {
+        "IFileManager": {
+            "path": "Files/File_1695322365302007_42957.mesh"
+        }
+    },
+    "1695322365311330:42960": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/LeftHand.mesh",
+                "hash": "e4f0e98ab8df2947fa8004cb9888602c"
+            }
+        }
+    }
+}

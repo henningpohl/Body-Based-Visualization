@@ -1,0 +1,115 @@
+{
+    "1695322365872809:43227": {
+        "IFileManager": {
+            "path": "Files/File_1695322365872809_43227.mesh"
+        }
+    },
+    "1695322365874829:43228": {
+        "IResourceController": {
+            "name": "Cylinder",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365886511:43230",
+            "fileId": "1695322365872809:43227",
+            "publicId": "1695322365896289:43242",
+            "expected_hash": "e1e18c625f15a1bc19836065573f1ff9",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365886511:43230",
+            "name": "Files/File_1695322365872809_43227.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365886511:43230": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "6672",
+                "compressedSize": "2479",
+                "extension": "mesh",
+                "originalRAM": "6672",
+                "originalSize": "2479",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365891882:43241"
+        }
+    },
+    "1695322365891882:43241": {
+        "IFileManager": {
+            "path": "Files/File_1695322365891882_43241.mesh"
+        }
+    },
+    "1695322365896289:43242": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Cylinder.mesh",
+                "hash": "e1e18c625f15a1bc19836065573f1ff9"
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "1694546922643288:76451": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/Cloud Resources/Textures/cloud_face_happy.pvr",
+                "hash": "978721e0338a17420619c6935da48ca0"
+            }
+        }
+    },
+    "1694546922644046:76452": {
+        "IFileManager": {
+            "path": "Files/File_1694546922644046_76452.pvr"
+        }
+    },
+    "1694546922646721:76453": {
+        "IResourceController": {
+            "name": "cloud_face_happy",
+            "type": 7,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694546922646736:76454",
+            "fileId": "1694546922644046:76452",
+            "publicId": "1694546922643288:76451",
+            "expected_hash": "978721e0338a17420619c6935da48ca0"
+        },
+        "IResourceManager": {
+            "uid": "1694546922646736:76454",
+            "name": "Files/File_1694546922644046_76452.pvr",
+            "flags": 1
+        }
+    }
+}

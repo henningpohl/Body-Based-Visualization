@@ -1,0 +1,42 @@
+{
+    "1694546919675847:75392": {
+        "IFileManager": {
+            "path": "Files/File_1694546919675847_75392.pvr"
+        }
+    },
+    "1694546919678063:75393": {
+        "IResourceController": {
+            "name": "chick_lo_defaultMat1_materialParams",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694546919678709:75394",
+            "fileId": "1694546919675847:75392",
+            "originalId": "1694546919679008:75399",
+            "publicId": "1694546919694920:75407",
+            "expected_hash": "ea615ec7fe0c59da82e18835932d2a49",
+            "additional": {
+                "originHash": "ea615ec7fe0c59da82e18835932d2a49"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1694546919678709:75394",
+            "name": "Files/File_1694546919675847_75392.jpg",
+            "flags": 1
+        }
+    },
+    "1694546919679008:75399": {
+        "IFileManager": {
+            "path": "Files/File_1694546919679008_75399.pvr"
+        }
+    },
+    "1694546919694920:75407": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/chick_lo_defaultMat1_materialParams.pvr",
+                "hash": "ea615ec7fe0c59da82e18835932d2a49"
+            }
+        }
+    }
+}

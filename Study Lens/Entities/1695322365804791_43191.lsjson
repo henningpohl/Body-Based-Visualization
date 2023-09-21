@@ -1,0 +1,115 @@
+{
+    "1695322365802559:43190": {
+        "IFileManager": {
+            "path": "Files/File_1695322365802559_43190.mesh"
+        }
+    },
+    "1695322365804791:43191": {
+        "IResourceController": {
+            "name": "Plane",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365817050:43193",
+            "fileId": "1695322365802559:43190",
+            "publicId": "1695322365826321:43205",
+            "expected_hash": "cc6ba8dafde25a5d05dbb35cb554bfe0",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365817050:43193",
+            "name": "Files/File_1695322365802559_43190.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365817050:43193": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "7008",
+                "compressedSize": "2170",
+                "extension": "mesh",
+                "originalRAM": "7008",
+                "originalSize": "2170",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365821845:43204"
+        }
+    },
+    "1695322365821845:43204": {
+        "IFileManager": {
+            "path": "Files/File_1695322365821845_43204.mesh"
+        }
+    },
+    "1695322365826321:43205": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Plane.mesh",
+                "hash": "cc6ba8dafde25a5d05dbb35cb554bfe0"
+            }
+        }
+    }
+}

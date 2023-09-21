@@ -1,0 +1,39 @@
+{
+    "1694546919415309:75311": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/Cloud Resources/Materials/cloud_diffuse.lsmat",
+                "hash": "2dbeea5b35641a56fa5242845536365d"
+            }
+        }
+    },
+    "1694546919494576:75337": {
+        "IFileManager": {
+            "path": "Files/File_1694546919494576_75337"
+        }
+    },
+    "1694546919496812:75338": {
+        "IResourceController": {
+            "name": "cloud_diffuse",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694546919496817:75339",
+            "fileId": "1694546919494576:75337",
+            "originalId": "1694546919522729:75345",
+            "publicId": "1694546919415309:75311",
+            "expected_hash": "e95fe42f0029f9ca7fb344a0c3ad4458"
+        },
+        "IResourceManager": {
+            "uid": "1694546919496817:75339",
+            "name": "Files/File_1694546919494576_75337",
+            "flags": 1
+        }
+    },
+    "1694546919522729:75345": {
+        "IFileManager": {
+            "path": "Files/File_1694546919522729_75345.lsmat"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "1695322856431395:128935": {
+        "IFileManager": {
+            "path": "Files/File_1695322856431395_128935.js"
+        }
+    },
+    "1695322856433987:128936": {
+        "IResourceController": {
+            "name": "MessageNotifier",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322856434004:128937",
+            "fileId": "1695322856431395:128935",
+            "publicId": "1695322856436652:128945",
+            "expected_hash": "d3e4b8fc487b4476ae3c365143d220b6"
+        },
+        "IResourceManager": {
+            "uid": "1695322856434004:128937",
+            "name": "Files/File_1695322856431395_128935.js",
+            "flags": 1
+        }
+    },
+    "1695322856434004:128937": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1695322856436652:128945": {
+        "IResourceController": {
+            "public": {
+                "path": "Message Notification/MessageNotifier.js",
+                "hash": "d3e4b8fc487b4476ae3c365143d220b6"
+            }
+        }
+    }
+}

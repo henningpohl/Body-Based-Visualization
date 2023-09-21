@@ -1,0 +1,42 @@
+{
+    "1694546883965445:72519": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/VFX_Rain.lsvfx",
+                "hash": "be415b355eb71b2c43390a65d808cb04"
+            }
+        }
+    },
+    "1694546883966699:72520": {
+        "IFileManager": {
+            "path": "Files/File_1694546883966699_72520"
+        }
+    },
+    "1694546883968354:72521": {
+        "IResourceController": {
+            "name": "VFX_Rain",
+            "type": 23,
+            "subtype": 0,
+            "dependency": 2,
+            "hidden": false,
+            "uid": "1694546883968359:72522",
+            "fileId": "1694546883966699:72520",
+            "originalId": "1694546884488256:72651",
+            "publicId": "1694546883965445:72519",
+            "expected_hash": "6b7145441ea13617ccf01b13c99a9e9c",
+            "resources": [
+                "1694546884095550:72574"
+            ]
+        },
+        "IResourceManager": {
+            "uid": "1694546883968359:72522",
+            "name": "Files/File_1694546883966699_72520",
+            "flags": 1
+        }
+    },
+    "1694546884488256:72651": {
+        "IFileManager": {
+            "path": "Files/File_1694546884488256_72651.lsvfx"
+        }
+    }
+}

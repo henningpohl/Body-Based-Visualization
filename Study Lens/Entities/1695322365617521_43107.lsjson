@@ -1,0 +1,115 @@
+{
+    "1695322365615230:43106": {
+        "IFileManager": {
+            "path": "Files/File_1695322365615230_43106.mesh"
+        }
+    },
+    "1695322365617521:43107": {
+        "IResourceController": {
+            "name": "Tube",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365629569:43109",
+            "fileId": "1695322365615230:43106",
+            "publicId": "1695322365646564:43123",
+            "expected_hash": "22eed0ab24a06e053eda60404043c7c8",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365629569:43109",
+            "name": "Files/File_1695322365615230_43106.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365629569:43109": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "13152",
+                "compressedSize": "4220",
+                "extension": "mesh",
+                "originalRAM": "13152",
+                "originalSize": "4220",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365637954:43122"
+        }
+    },
+    "1695322365637954:43122": {
+        "IFileManager": {
+            "path": "Files/File_1695322365637954_43122.mesh"
+        }
+    },
+    "1695322365646564:43123": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Tube.mesh",
+                "hash": "22eed0ab24a06e053eda60404043c7c8"
+            }
+        }
+    }
+}

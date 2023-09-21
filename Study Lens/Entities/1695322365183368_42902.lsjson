@@ -1,0 +1,115 @@
+{
+    "1695322365181011:42901": {
+        "IFileManager": {
+            "path": "Files/File_1695322365181011_42901.mesh"
+        }
+    },
+    "1695322365183368:42902": {
+        "IResourceController": {
+            "name": "LeftUpper_Arm",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365195620:42904",
+            "fileId": "1695322365181011:42901",
+            "publicId": "1695322365214084:42918",
+            "expected_hash": "f54b7a1d2085f8caec6f0f1cfed9a62c",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365195620:42904",
+            "name": "Files/File_1695322365181011_42901.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365195620:42904": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "9336",
+                "compressedSize": "4366",
+                "extension": "mesh",
+                "originalRAM": "9336",
+                "originalSize": "4366",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365205041:42915"
+        }
+    },
+    "1695322365205041:42915": {
+        "IFileManager": {
+            "path": "Files/File_1695322365205041_42915.mesh"
+        }
+    },
+    "1695322365214084:42918": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/LeftUpper_Arm.mesh",
+                "hash": "f54b7a1d2085f8caec6f0f1cfed9a62c"
+            }
+        }
+    }
+}

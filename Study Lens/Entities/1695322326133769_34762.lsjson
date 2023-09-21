@@ -1,0 +1,23 @@
+{
+    "1695322326133769:34762": {
+        "IResourceController": {
+            "name": "Message Notification",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1695322326134020:34763",
+            "resources": [
+                "1695322320002835:32758",
+                "1695322856433987:128936"
+            ]
+        }
+    },
+    "1695322326134020:34763": {
+        "IResourceController": {
+            "public": {
+                "path": "Message Notification"
+            }
+        }
+    }
+}

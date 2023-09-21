@@ -1,0 +1,115 @@
+{
+    "1695322365954731:43269": {
+        "IFileManager": {
+            "path": "Files/File_1695322365954731_43269.mesh"
+        }
+    },
+    "1695322365956705:43270": {
+        "IResourceController": {
+            "name": "Cube",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365969354:43274",
+            "fileId": "1695322365954731:43269",
+            "publicId": "1695322365979321:43286",
+            "expected_hash": "4583cfc83497a1ddfea7958eb7cf4709",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365969354:43274",
+            "name": "Files/File_1695322365954731_43269.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365969354:43274": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "1224",
+                "compressedSize": "769",
+                "extension": "mesh",
+                "originalRAM": "1224",
+                "originalSize": "769",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365974586:43285"
+        }
+    },
+    "1695322365974586:43285": {
+        "IFileManager": {
+            "path": "Files/File_1695322365974586_43285.mesh"
+        }
+    },
+    "1695322365979321:43286": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Cube.mesh",
+                "hash": "4583cfc83497a1ddfea7958eb7cf4709"
+            }
+        }
+    }
+}

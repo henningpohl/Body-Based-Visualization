@@ -1,0 +1,30 @@
+{
+    "1695322320031511:32805": {
+        "IFileManager": {
+            "path": "Files/File_1695322320031511_32805"
+        }
+    },
+    "1695322320033018:32806": {
+        "IResourceController": {
+            "name": "Simple PBR",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 1,
+            "hidden": true,
+            "uid": "1695322320033034:32807",
+            "fileId": "1695322320031511:32805",
+            "originalId": "1695322320055732:32814",
+            "expected_hash": "3af46b0f32d263d8b4c05d7133272956"
+        },
+        "IResourceManager": {
+            "uid": "1695322320033034:32807",
+            "name": "Files/File_1695322320031511_32805",
+            "flags": 1
+        }
+    },
+    "1695322320055732:32814": {
+        "IFileManager": {
+            "path": "Files/File_1695322320055732_32814.lsmat"
+        }
+    }
+}

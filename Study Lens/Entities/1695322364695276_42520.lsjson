@@ -1,0 +1,23 @@
+{
+    "1695322364695276:42520": {
+        "IResourceController": {
+            "name": "Primitive Pack Resources",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1695322364695456:42521",
+            "resources": [
+                "1695322364696149:42522",
+                "1695322364746950:42700"
+            ]
+        }
+    },
+    "1695322364695456:42521": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources"
+            }
+        }
+    }
+}

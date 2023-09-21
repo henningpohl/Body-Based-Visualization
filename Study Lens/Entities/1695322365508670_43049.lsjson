@@ -1,0 +1,115 @@
+{
+    "1695322365506453:43048": {
+        "IFileManager": {
+            "path": "Files/File_1695322365506453_43048.mesh"
+        }
+    },
+    "1695322365508670:43049": {
+        "IResourceController": {
+            "name": "Joint",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365520434:43051",
+            "fileId": "1695322365506453:43048",
+            "publicId": "1695322365530979:43063",
+            "expected_hash": "13b33d0ff7ab578764eba7bb660a3227",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365520434:43051",
+            "name": "Files/File_1695322365506453_43048.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365520434:43051": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "6672",
+                "compressedSize": "3007",
+                "extension": "mesh",
+                "originalRAM": "6672",
+                "originalSize": "3007",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365525650:43062"
+        }
+    },
+    "1695322365525650:43062": {
+        "IFileManager": {
+            "path": "Files/File_1695322365525650_43062.mesh"
+        }
+    },
+    "1695322365530979:43063": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Joint.mesh",
+                "hash": "13b33d0ff7ab578764eba7bb660a3227"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "1695322364747821:42702": {
+        "IResourceController": {
+            "name": "Primitive",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1695322364747919:42703",
+            "resources": [
+                "1695322364748578:42704"
+            ]
+        }
+    },
+    "1695322364747919:42703": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "1695322364696149:42522": {
+        "IResourceController": {
+            "name": "Materials",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1695322364696254:42523",
+            "resources": [
+                "1695322364529491:42506"
+            ]
+        }
+    },
+    "1695322364696254:42523": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Materials"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "1694546919407533:75305": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/Cloud Resources",
+                "hash": "21d28b1caee5d360a243951830ec0504"
+            }
+        }
+    },
+    "1694546919410874:75306": {
+        "IResourceController": {
+            "name": "Cloud Resources",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1694546919407533:75305",
+            "resources": [
+                "1694546919414855:75310",
+                "1694546922359827:76345",
+                "1694546922592611:76429",
+                "1695323855616988:299661"
+            ]
+        }
+    }
+}

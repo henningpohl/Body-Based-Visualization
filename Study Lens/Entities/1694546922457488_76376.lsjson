@@ -1,0 +1,125 @@
+{
+    "1694546922454029:76374": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/Cloud Resources/Meshes/clouf_face1.mesh",
+                "hash": "e9c8da3c23175406ad8d5123ba1b6cd7"
+            }
+        }
+    },
+    "1694546922454743:76375": {
+        "IFileManager": {
+            "path": "Files/File_1694546922454743_76375.mesh"
+        }
+    },
+    "1694546922457488:76376": {
+        "IResourceController": {
+            "name": "clouf_face1",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694546922477310:76380",
+            "fileId": "1694546922454743:76375",
+            "publicId": "1694546922454029:76374",
+            "expected_hash": "e9c8da3c23175406ad8d5123ba1b6cd7",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "boneData"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1694546922477310:76380",
+            "name": "Files/File_1694546922454743_76375.mesh",
+            "flags": 1
+        }
+    },
+    "1694546922477310:76380": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "4340",
+                "compressedSize": "3024",
+                "extension": "mesh",
+                "originalRAM": "4340",
+                "originalSize": "3024",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "boneData"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1694546922479433:76386"
+        }
+    },
+    "1694546922479433:76386": {
+        "IFileManager": {
+            "path": "Files/File_1694546922479433_76386.mesh"
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "1695322365536969:43064": {
+        "IFileManager": {
+            "path": "Files/File_1695322365536969_43064.mesh"
+        }
+    },
+    "1695322365539324:43067": {
+        "IResourceController": {
+            "name": "Platonic",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365550809:43069",
+            "fileId": "1695322365536969:43064",
+            "publicId": "1695322365560516:43081",
+            "expected_hash": "51e91e115794b965c9375b518b8df95d",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365550809:43069",
+            "name": "Files/File_1695322365536969_43064.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365550809:43069": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "3000",
+                "compressedSize": "1257",
+                "extension": "mesh",
+                "originalRAM": "3000",
+                "originalSize": "1257",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365555701:43080"
+        }
+    },
+    "1695322365555701:43080": {
+        "IFileManager": {
+            "path": "Files/File_1695322365555701_43080.mesh"
+        }
+    },
+    "1695322365560516:43081": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Platonic.mesh",
+                "hash": "51e91e115794b965c9375b518b8df95d"
+            }
+        }
+    }
+}

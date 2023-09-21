@@ -1,0 +1,115 @@
+{
+    "1695322365128372:42880": {
+        "IFileManager": {
+            "path": "Files/File_1695322365128372_42880.mesh"
+        }
+    },
+    "1695322365130932:42881": {
+        "IResourceController": {
+            "name": "Upper_Body",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365145725:42885",
+            "fileId": "1695322365128372:42880",
+            "publicId": "1695322365163999:42897",
+            "expected_hash": "eba36bec841ec728c249239765c648a0",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365145725:42885",
+            "name": "Files/File_1695322365128372_42880.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365145725:42885": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "8448",
+                "compressedSize": "4290",
+                "extension": "mesh",
+                "originalRAM": "8448",
+                "originalSize": "4290",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365155669:42896"
+        }
+    },
+    "1695322365155669:42896": {
+        "IFileManager": {
+            "path": "Files/File_1695322365155669_42896.mesh"
+        }
+    },
+    "1695322365163999:42897": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Upper_Body.mesh",
+                "hash": "eba36bec841ec728c249239765c648a0"
+            }
+        }
+    }
+}

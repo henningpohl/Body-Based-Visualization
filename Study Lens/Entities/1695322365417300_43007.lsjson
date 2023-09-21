@@ -1,0 +1,115 @@
+{
+    "1695322365415041:43006": {
+        "IFileManager": {
+            "path": "Files/File_1695322365415041_43006.mesh"
+        }
+    },
+    "1695322365417300:43007": {
+        "IResourceController": {
+            "name": "Right_Hand",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365428315:43009",
+            "fileId": "1695322365415041:43006",
+            "publicId": "1695322365443506:43023",
+            "expected_hash": "b424a8c11c6dddd82aa563904decdfa2",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365428315:43009",
+            "name": "Files/File_1695322365415041_43006.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365428315:43009": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "7560",
+                "compressedSize": "3847",
+                "extension": "mesh",
+                "originalRAM": "7560",
+                "originalSize": "3847",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365436010:43020"
+        }
+    },
+    "1695322365436010:43020": {
+        "IFileManager": {
+            "path": "Files/File_1695322365436010_43020.mesh"
+        }
+    },
+    "1695322365443506:43023": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Right_Hand.mesh",
+                "hash": "b424a8c11c6dddd82aa563904decdfa2"
+            }
+        }
+    }
+}

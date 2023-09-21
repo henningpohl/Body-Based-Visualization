@@ -1,0 +1,115 @@
+{
+    "1695322364816978:42733": {
+        "IFileManager": {
+            "path": "Files/File_1695322364816978_42733.mesh"
+        }
+    },
+    "1695322364819204:42734": {
+        "IResourceController": {
+            "name": "LeftShin",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322364830870:42736",
+            "fileId": "1695322364816978:42733",
+            "publicId": "1695322364847746:42750",
+            "expected_hash": "b29119068164f31b4c9ea5d8c5c11305",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322364830870:42736",
+            "name": "Files/File_1695322364816978_42733.mesh",
+            "flags": 1
+        }
+    },
+    "1695322364830870:42736": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "9336",
+                "compressedSize": "4451",
+                "extension": "mesh",
+                "originalRAM": "9336",
+                "originalSize": "4451",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322364838787:42747"
+        }
+    },
+    "1695322364838787:42747": {
+        "IFileManager": {
+            "path": "Files/File_1695322364838787_42747.mesh"
+        }
+    },
+    "1695322364847746:42750": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/LeftShin.mesh",
+                "hash": "b29119068164f31b4c9ea5d8c5c11305"
+            }
+        }
+    }
+}

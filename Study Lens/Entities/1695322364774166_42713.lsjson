@@ -1,0 +1,115 @@
+{
+    "1695322364772073:42712": {
+        "IFileManager": {
+            "path": "Files/File_1695322364772073_42712.mesh"
+        }
+    },
+    "1695322364774166:42713": {
+        "IResourceController": {
+            "name": "LeftThigh",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322364786176:42717",
+            "fileId": "1695322364772073:42712",
+            "publicId": "1695322364801792:42729",
+            "expected_hash": "4bfcae2748e38d2510c62b2707f6af50",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322364786176:42717",
+            "name": "Files/File_1695322364772073_42712.mesh",
+            "flags": 1
+        }
+    },
+    "1695322364786176:42717": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "8448",
+                "compressedSize": "4059",
+                "extension": "mesh",
+                "originalRAM": "8448",
+                "originalSize": "4059",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322364794459:42728"
+        }
+    },
+    "1695322364794459:42728": {
+        "IFileManager": {
+            "path": "Files/File_1695322364794459_42728.mesh"
+        }
+    },
+    "1695322364801792:42729": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/LeftThigh.mesh",
+                "hash": "4bfcae2748e38d2510c62b2707f6af50"
+            }
+        }
+    }
+}

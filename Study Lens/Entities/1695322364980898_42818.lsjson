@@ -1,0 +1,115 @@
+{
+    "1695322364978387:42817": {
+        "IFileManager": {
+            "path": "Files/File_1695322364978387_42817.mesh"
+        }
+    },
+    "1695322364980898:42818": {
+        "IResourceController": {
+            "name": "LeftJoint_3",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322364995097:42820",
+            "fileId": "1695322364978387:42817",
+            "publicId": "1695322365006770:42832",
+            "expected_hash": "0f450db107bb20c04f4ef21e54201cdf",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322364995097:42820",
+            "name": "Files/File_1695322364978387_42817.mesh",
+            "flags": 1
+        }
+    },
+    "1695322364995097:42820": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "6672",
+                "compressedSize": "3013",
+                "extension": "mesh",
+                "originalRAM": "6672",
+                "originalSize": "3013",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365001610:42831"
+        }
+    },
+    "1695322365001610:42831": {
+        "IFileManager": {
+            "path": "Files/File_1695322365001610_42831.mesh"
+        }
+    },
+    "1695322365006770:42832": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/LeftJoint_3.mesh",
+                "hash": "0f450db107bb20c04f4ef21e54201cdf"
+            }
+        }
+    }
+}

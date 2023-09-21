@@ -1,0 +1,115 @@
+{
+    "1695322365025180:42838": {
+        "IFileManager": {
+            "path": "Files/File_1695322365025180_42838.mesh"
+        }
+    },
+    "1695322365027689:42839": {
+        "IResourceController": {
+            "name": "Right_Thigh",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365043447:42843",
+            "fileId": "1695322365025180:42838",
+            "publicId": "1695322365060170:42855",
+            "expected_hash": "04020dfe8d0d56ce15cf2bc01aa3cd68",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365043447:42843",
+            "name": "Files/File_1695322365025180_42838.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365043447:42843": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "8448",
+                "compressedSize": "4059",
+                "extension": "mesh",
+                "originalRAM": "8448",
+                "originalSize": "4059",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365052622:42854"
+        }
+    },
+    "1695322365052622:42854": {
+        "IFileManager": {
+            "path": "Files/File_1695322365052622_42854.mesh"
+        }
+    },
+    "1695322365060170:42855": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Right_Thigh.mesh",
+                "hash": "04020dfe8d0d56ce15cf2bc01aa3cd68"
+            }
+        }
+    }
+}

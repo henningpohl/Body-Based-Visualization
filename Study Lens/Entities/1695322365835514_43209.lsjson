@@ -1,0 +1,115 @@
+{
+    "1695322365833468:43208": {
+        "IFileManager": {
+            "path": "Files/File_1695322365833468_43208.mesh"
+        }
+    },
+    "1695322365835514:43209": {
+        "IResourceController": {
+            "name": "Disc",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365847047:43211",
+            "fileId": "1695322365833468:43208",
+            "publicId": "1695322365861530:43223",
+            "expected_hash": "aac244653a53865b25398907c938ef60",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365847047:43211",
+            "name": "Files/File_1695322365833468_43208.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365847047:43211": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "912",
+                "compressedSize": "906",
+                "extension": "mesh",
+                "originalRAM": "912",
+                "originalSize": "906",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365852067:43222"
+        }
+    },
+    "1695322365852067:43222": {
+        "IFileManager": {
+            "path": "Files/File_1695322365852067_43222.mesh"
+        }
+    },
+    "1695322365861530:43223": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Disc.mesh",
+                "hash": "aac244653a53865b25398907c938ef60"
+            }
+        }
+    }
+}

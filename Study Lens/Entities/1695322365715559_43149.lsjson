@@ -1,0 +1,115 @@
+{
+    "1695322365713228:43148": {
+        "IFileManager": {
+            "path": "Files/File_1695322365713228_43148.mesh"
+        }
+    },
+    "1695322365715559:43149": {
+        "IResourceController": {
+            "name": "Torus",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322365727777:43151",
+            "fileId": "1695322365713228:43148",
+            "publicId": "1695322365743970:43165",
+            "expected_hash": "8d100c0e85694136ab8269358951f04d",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695322365727777:43151",
+            "name": "Files/File_1695322365713228_43148.mesh",
+            "flags": 1
+        }
+    },
+    "1695322365727777:43151": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "33072",
+                "compressedSize": "15675",
+                "extension": "mesh",
+                "originalRAM": "33072",
+                "originalSize": "15675",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695322365736024:43164"
+        }
+    },
+    "1695322365736024:43164": {
+        "IFileManager": {
+            "path": "Files/File_1695322365736024_43164.mesh"
+        }
+    },
+    "1695322365743970:43165": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Meshes/Primitive/Meshes/Torus.mesh",
+                "hash": "8d100c0e85694136ab8269358951f04d"
+            }
+        }
+    }
+}

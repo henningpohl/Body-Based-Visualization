@@ -1,0 +1,38 @@
+{
+    "1695324546133152:404253": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/tween.umd.js",
+                "hash": "91dc2639100dbbb43dfeeaa728ddcedf"
+            }
+        }
+    },
+    "1695324546133859:404254": {
+        "IFileManager": {
+            "path": "Files/File_1695324546133859_404254.js"
+        }
+    },
+    "1695324546135969:404255": {
+        "IResourceController": {
+            "name": "tween.umd",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695324546135984:404256",
+            "fileId": "1695324546133859:404254",
+            "publicId": "1695324546133152:404253",
+            "expected_hash": "91dc2639100dbbb43dfeeaa728ddcedf"
+        },
+        "IResourceManager": {
+            "uid": "1695324546135984:404256",
+            "name": "Files/File_1695324546133859_404254.js",
+            "flags": 1
+        }
+    },
+    "1695324546135984:404256": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

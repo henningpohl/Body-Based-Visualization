@@ -1,0 +1,38 @@
+{
+    "1694546941471829:79526": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/WeatherNotification.js",
+                "hash": "59361291686fd7cebf3981836238abbb"
+            }
+        }
+    },
+    "1694546941472389:79527": {
+        "IFileManager": {
+            "path": "Files/File_1694546941472389_79527.js"
+        }
+    },
+    "1694546941474360:79528": {
+        "IResourceController": {
+            "name": "WeatherNotification",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694546941474384:79529",
+            "fileId": "1694546941472389:79527",
+            "publicId": "1694546941471829:79526",
+            "expected_hash": "59361291686fd7cebf3981836238abbb"
+        },
+        "IResourceManager": {
+            "uid": "1694546941474384:79529",
+            "name": "Files/File_1694546941472389_79527.js",
+            "flags": 1
+        }
+    },
+    "1694546941474384:79529": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

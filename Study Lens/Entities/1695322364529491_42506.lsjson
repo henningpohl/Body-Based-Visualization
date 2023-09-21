@@ -1,0 +1,39 @@
+{
+    "1695322364527638:42505": {
+        "IFileManager": {
+            "path": "Files/File_1695322364527638_42505"
+        }
+    },
+    "1695322364529491:42506": {
+        "IResourceController": {
+            "name": "primitive_sample_material",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695322364529496:42507",
+            "fileId": "1695322364527638:42505",
+            "originalId": "1695322364551053:42513",
+            "publicId": "1695322364697858:42524",
+            "expected_hash": "7e47e163aa0e4f609492bf66b421f9e3"
+        },
+        "IResourceManager": {
+            "uid": "1695322364529496:42507",
+            "name": "Files/File_1695322364527638_42505",
+            "flags": 1
+        }
+    },
+    "1695322364551053:42513": {
+        "IFileManager": {
+            "path": "Files/File_1695322364551053_42513.lsmat"
+        }
+    },
+    "1695322364697858:42524": {
+        "IResourceController": {
+            "public": {
+                "path": "Primitive Pack Resources/Materials/primitive_sample_material.lsmat",
+                "hash": "e60db2814ba7c21628f37c8978a070e1"
+            }
+        }
+    }
+}

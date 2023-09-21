@@ -1,0 +1,42 @@
+{
+    "1694546921213312:75994": {
+        "IFileManager": {
+            "path": "Files/File_1694546921213312_75994.pvr"
+        }
+    },
+    "1694546921215993:75995": {
+        "IResourceController": {
+            "name": "cloud_face_sad",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694546921216733:75996",
+            "fileId": "1694546921213312:75994",
+            "originalId": "1694546921217089:76001",
+            "publicId": "1694546921238196:76009",
+            "expected_hash": "67049a0f3476ee65ddebf9a527f94701",
+            "additional": {
+                "originHash": "67049a0f3476ee65ddebf9a527f94701"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1694546921216733:75996",
+            "name": "Files/File_1694546921213312_75994.jpg",
+            "flags": 1
+        }
+    },
+    "1694546921217089:76001": {
+        "IFileManager": {
+            "path": "Files/File_1694546921217089_76001.pvr"
+        }
+    },
+    "1694546921238196:76009": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/cloud_face_sad.pvr",
+                "hash": "67049a0f3476ee65ddebf9a527f94701"
+            }
+        }
+    }
+}

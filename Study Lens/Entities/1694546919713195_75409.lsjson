@@ -1,0 +1,79 @@
+{
+    "1694546919710993:75408": {
+        "IFileManager": {
+            "path": "Files/File_1694546919710993_75408.pvr"
+        }
+    },
+    "1694546919713195:75409": {
+        "IResourceController": {
+            "name": "cloud_diffuse",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1694546919713852:75410",
+            "fileId": "1694546919710993:75408",
+            "originalId": "1694546919714402:75415",
+            "publicId": "1694546919742696:75424",
+            "expected_hash": "e2b50fa804456d142bcf8eca34f0d582",
+            "additional": {
+                "originHash": "d3ab5bb65feba08566dc321a3dba671b"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1694546919713852:75410",
+            "name": "Files/File_1694546919710993_75408.jpg",
+            "flags": 1
+        }
+    },
+    "1694546919713852:75410": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "d3ab5bb65feba08566dc321a3dba671b"
+                    },
+                    "v": "1694546926814948:78094"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "131072",
+                "compressedSize": "41475",
+                "extension": "jpg",
+                "originalRAM": "1048576",
+                "originalSize": "12294",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1694546919728306:75423"
+        }
+    },
+    "1694546919714402:75415": {
+        "IFileManager": {
+            "path": "Files/File_1694546919714402_75415.jpg"
+        }
+    },
+    "1694546919728306:75423": {
+        "IFileManager": {
+            "path": "Files/File_1694546919728306_75423.jpg"
+        }
+    },
+    "1694546919742696:75424": {
+        "IResourceController": {
+            "public": {
+                "path": "Textures/cloud_diffuse.jpg",
+                "hash": "d3ab5bb65feba08566dc321a3dba671b"
+            }
+        }
+    },
+    "1694546926814948:78094": {
+        "IFileManager": {
+            "path": "Files/File_1694546926814948_78094.pvr"
+        }
+    }
+}
