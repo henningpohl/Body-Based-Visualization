@@ -1,0 +1,39 @@
+{
+    "1695578828114799:13904": {
+        "IFileManager": {
+            "path": "Files/File_1695578828114799_13904"
+        }
+    },
+    "1695578828116333:13905": {
+        "IResourceController": {
+            "name": "Notification Post SimplePBR",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695578828116351:13906",
+            "fileId": "1695578828114799:13904",
+            "originalId": "1695578828138304:13915",
+            "publicId": "1695578828412884:14003",
+            "expected_hash": "3af46b0f32d263d8b4c05d7133272956"
+        },
+        "IResourceManager": {
+            "uid": "1695578828116351:13906",
+            "name": "Files/File_1695578828114799_13904",
+            "flags": 1
+        }
+    },
+    "1695578828138304:13915": {
+        "IFileManager": {
+            "path": "Files/File_1695578828138304_13915.lsmat"
+        }
+    },
+    "1695578828412884:14003": {
+        "IResourceController": {
+            "public": {
+                "path": "Message Notification/Notification Post SimplePBR.lsmat",
+                "hash": "699ebf2a4ebfd82a5983bf665ca0a07a"
+            }
+        }
+    }
+}

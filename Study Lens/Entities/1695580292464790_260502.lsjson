@@ -1,0 +1,39 @@
+{
+    "1695580292463387:260501": {
+        "IFileManager": {
+            "path": "Files/File_1695580292463387_260501"
+        }
+    },
+    "1695580292464790:260502": {
+        "IResourceController": {
+            "name": "Depth Write Only",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695580292464795:260503",
+            "fileId": "1695580292463387:260501",
+            "originalId": "1695580292487312:260512",
+            "publicId": "1695580292696677:260565",
+            "expected_hash": "be917b6221599ab136249b07f12d7ad6"
+        },
+        "IResourceManager": {
+            "uid": "1695580292464795:260503",
+            "name": "Files/File_1695580292463387_260501",
+            "flags": 1
+        }
+    },
+    "1695580292487312:260512": {
+        "IFileManager": {
+            "path": "Files/File_1695580292487312_260512.lsmat"
+        }
+    },
+    "1695580292696677:260565": {
+        "IResourceController": {
+            "public": {
+                "path": "Message Notification/Depth Write Only.lsmat",
+                "hash": "6fc92eae76115cc0107dacc114d2bf42"
+            }
+        }
+    }
+}

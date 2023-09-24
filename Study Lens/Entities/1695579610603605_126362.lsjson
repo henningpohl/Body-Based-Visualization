@@ -1,0 +1,39 @@
+{
+    "1695579610602196:126358": {
+        "IFileManager": {
+            "path": "Files/File_1695579610602196_126358"
+        }
+    },
+    "1695579610603605:126362": {
+        "IResourceController": {
+            "name": "Notification Flag Unlit",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695579610603611:126363",
+            "fileId": "1695579610602196:126358",
+            "originalId": "1695579610626762:126369",
+            "publicId": "1695579610852786:126430",
+            "expected_hash": "be917b6221599ab136249b07f12d7ad6"
+        },
+        "IResourceManager": {
+            "uid": "1695579610603611:126363",
+            "name": "Files/File_1695579610602196_126358",
+            "flags": 1
+        }
+    },
+    "1695579610626762:126369": {
+        "IFileManager": {
+            "path": "Files/File_1695579610626762_126369.lsmat"
+        }
+    },
+    "1695579610852786:126430": {
+        "IResourceController": {
+            "public": {
+                "path": "Message Notification/Notification Flag Unlit.lsmat",
+                "hash": "26465f8e4fa25c32df36eacfb45ce2a1"
+            }
+        }
+    }
+}
