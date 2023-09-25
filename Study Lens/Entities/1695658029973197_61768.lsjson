@@ -1,0 +1,39 @@
+{
+    "1695658029971748:61767": {
+        "IFileManager": {
+            "path": "Files/File_1695658029971748_61767"
+        }
+    },
+    "1695658029973197:61768": {
+        "IResourceController": {
+            "name": "Eye Minute Material",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695658029973207:61769",
+            "fileId": "1695658029971748:61767",
+            "originalId": "1695658029995105:61778",
+            "publicId": "1695658030222357:61839",
+            "expected_hash": "be917b6221599ab136249b07f12d7ad6"
+        },
+        "IResourceManager": {
+            "uid": "1695658029973207:61769",
+            "name": "Files/File_1695658029971748_61767",
+            "flags": 1
+        }
+    },
+    "1695658029995105:61778": {
+        "IFileManager": {
+            "path": "Files/File_1695658029995105_61778.lsmat"
+        }
+    },
+    "1695658030222357:61839": {
+        "IResourceController": {
+            "public": {
+                "path": "Eye Clock/Eye Minute Material.lsmat",
+                "hash": "3299800be1c5d8d649a9134d74b1dc5a"
+            }
+        }
+    }
+}

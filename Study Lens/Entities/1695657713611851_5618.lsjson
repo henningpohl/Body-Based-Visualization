@@ -1,0 +1,38 @@
+{
+    "1695657713608184:5616": {
+        "IResourceController": {
+            "public": {
+                "path": "Eye Clock/EyebrowPins.js",
+                "hash": "0a36f4ce89264c9d22924903b50a96b5"
+            }
+        }
+    },
+    "1695657713608713:5617": {
+        "IFileManager": {
+            "path": "Files/File_1695657713608713_5617.js"
+        }
+    },
+    "1695657713611851:5618": {
+        "IResourceController": {
+            "name": "EyebrowPins",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695657713611871:5619",
+            "fileId": "1695657713608713:5617",
+            "publicId": "1695657713608184:5616",
+            "expected_hash": "0a36f4ce89264c9d22924903b50a96b5"
+        },
+        "IResourceManager": {
+            "uid": "1695657713611871:5619",
+            "name": "Files/File_1695657713608713_5617.js",
+            "flags": 1
+        }
+    },
+    "1695657713611871:5619": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    }
+}

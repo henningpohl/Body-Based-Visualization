@@ -15,7 +15,7 @@
             "fileId": "1695628741774733:529832",
             "originalId": "1695628741797984:529843",
             "publicId": "1695628741987721:529901",
-            "expected_hash": "d0dbad7da299e39a92e80b52ba1804ac"
+            "expected_hash": "7eb37ef7c781a47e38b52df92f017361"
         },
         "IResourceManager": {
             "uid": "1695628741776300:529834",
@@ -32,7 +32,7 @@
         "IResourceController": {
             "public": {
                 "path": "Eye Clock/Eye Seconds Material.lsmat",
-                "hash": "bada20b6ec39dd84fad65d74221d4a99"
+                "hash": "68954185e07a0a119dcd3d30165764e4"
             }
         }
     }

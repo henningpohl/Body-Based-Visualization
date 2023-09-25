@@ -14,7 +14,7 @@
             "uid": "1695629524508720:678521",
             "fileId": "1695629524506457:678519",
             "publicId": "1695629524511974:678526",
-            "expected_hash": "7444c89b288b691e65603bb13186b9e8"
+            "expected_hash": "db6b2606ac166a115696c791a621c31c"
         },
         "IResourceManager": {
             "uid": "1695629524508720:678521",
@@ -31,7 +31,7 @@
         "IResourceController": {
             "public": {
                 "path": "Eye Clock/Eye Clock.js",
-                "hash": "7444c89b288b691e65603bb13186b9e8"
+                "hash": "db6b2606ac166a115696c791a621c31c"
             }
         }
     }

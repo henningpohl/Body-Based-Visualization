@@ -1,0 +1,21 @@
+{
+    "1695657713613734:5624": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/Cloud Resources/Animations",
+                "hash": "2ed51057f3fcf0daf2f45089eb67c72e"
+            }
+        }
+    },
+    "1695657713614329:5625": {
+        "IResourceController": {
+            "name": "Animations",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1695657713613734:5624",
+            "resources": []
+        }
+    }
+}
