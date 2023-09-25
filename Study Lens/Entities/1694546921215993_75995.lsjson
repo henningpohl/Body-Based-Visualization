@@ -14,7 +14,7 @@
             "uid": "1694546921216733:75996",
             "fileId": "1694546921213312:75994",
             "originalId": "1694546921217089:76001",
-            "publicId": "1694546921238196:76009",
+            "publicId": "1695667188159417:1729859",
             "expected_hash": "67049a0f3476ee65ddebf9a527f94701",
             "additional": {
                 "originHash": "67049a0f3476ee65ddebf9a527f94701"
@@ -31,7 +31,7 @@
             "path": "Files/File_1694546921217089_76001.pvr"
         }
     },
-    "1694546921238196:76009": {
+    "1695667188159417:1729859": {
         "IResourceController": {
             "public": {
                 "path": "Textures/cloud_face_sad.pvr",

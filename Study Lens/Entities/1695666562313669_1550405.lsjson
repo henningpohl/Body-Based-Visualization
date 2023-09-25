@@ -1,0 +1,39 @@
+{
+    "1695666562312072:1550404": {
+        "IFileManager": {
+            "path": "Files/File_1695666562312072_1550404"
+        }
+    },
+    "1695666562313669:1550405": {
+        "IResourceController": {
+            "name": "cloud_diffuse",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695666562313677:1550406",
+            "fileId": "1695666562312072:1550404",
+            "originalId": "1695666562339275:1550412",
+            "publicId": "1695666562509745:1550421",
+            "expected_hash": "e95fe42f0029f9ca7fb344a0c3ad4458"
+        },
+        "IResourceManager": {
+            "uid": "1695666562313677:1550406",
+            "name": "Files/File_1695666562312072_1550404",
+            "flags": 1
+        }
+    },
+    "1695666562339275:1550412": {
+        "IFileManager": {
+            "path": "Files/File_1695666562339275_1550412.lsmat"
+        }
+    },
+    "1695666562509745:1550421": {
+        "IResourceController": {
+            "public": {
+                "path": "Cloud Resources/Materials/cloud_diffuse.lsmat",
+                "hash": "2ccff75a852b072ea8c3187304e4e319"
+            }
+        }
+    }
+}

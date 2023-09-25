@@ -14,7 +14,7 @@
             "uid": "1694546919678709:75394",
             "fileId": "1694546919675847:75392",
             "originalId": "1694546919679008:75399",
-            "publicId": "1694546919694920:75407",
+            "publicId": "1695667189502637:1735413",
             "expected_hash": "ea615ec7fe0c59da82e18835932d2a49",
             "additional": {
                 "originHash": "ea615ec7fe0c59da82e18835932d2a49"
@@ -31,7 +31,7 @@
             "path": "Files/File_1694546919679008_75399.pvr"
         }
     },
-    "1694546919694920:75407": {
+    "1695667189502637:1735413": {
         "IResourceController": {
             "public": {
                 "path": "Textures/chick_lo_defaultMat1_materialParams.pvr",

@@ -1,0 +1,125 @@
+{
+    "1695666562036391:1550127": {
+        "IFileManager": {
+            "path": "Files/File_1695666562036391_1550127.mesh"
+        }
+    },
+    "1695666562038300:1550128": {
+        "IResourceController": {
+            "name": "clouf_face1",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695666562050041:1550130",
+            "fileId": "1695666562036391:1550127",
+            "publicId": "1695666562059486:1550142",
+            "expected_hash": "e9c8da3c23175406ad8d5123ba1b6cd7",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "tangent"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "texture0"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "boneData"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695666562050041:1550130",
+            "name": "Files/File_1695666562036391_1550127.mesh",
+            "flags": 1
+        }
+    },
+    "1695666562050041:1550130": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "4340",
+                "compressedSize": "3024",
+                "extension": "mesh",
+                "originalRAM": "4340",
+                "originalSize": "3024",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "tangent"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "texture0"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "boneData"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695666562054837:1550141"
+        }
+    },
+    "1695666562054837:1550141": {
+        "IFileManager": {
+            "path": "Files/File_1695666562054837_1550141.mesh"
+        }
+    },
+    "1695666562059486:1550142": {
+        "IResourceController": {
+            "public": {
+                "path": "Cloud Resources/Meshes/clouf_face1.mesh",
+                "hash": "e9c8da3c23175406ad8d5123ba1b6cd7"
+            }
+        }
+    }
+}

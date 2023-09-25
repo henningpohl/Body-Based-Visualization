@@ -14,7 +14,7 @@
             "uid": "1694546919713852:75410",
             "fileId": "1694546919710993:75408",
             "originalId": "1694546919714402:75415",
-            "publicId": "1694546919742696:75424",
+            "publicId": "1695667189056702:1733549",
             "expected_hash": "e2b50fa804456d142bcf8eca34f0d582",
             "additional": {
                 "originHash": "d3ab5bb65feba08566dc321a3dba671b"
@@ -38,7 +38,7 @@
                 }
             ],
             "infos": {
-                "compressedRAM": "131072",
+                "compressedRAM": "174325",
                 "compressedSize": "41475",
                 "extension": "jpg",
                 "originalRAM": "1048576",
@@ -63,17 +63,17 @@
             "path": "Files/File_1694546919728306_75423.jpg"
         }
     },
-    "1694546919742696:75424": {
+    "1694546926814948:78094": {
+        "IFileManager": {
+            "path": "Files/File_1694546926814948_78094.pvr"
+        }
+    },
+    "1695667189056702:1733549": {
         "IResourceController": {
             "public": {
                 "path": "Textures/cloud_diffuse.jpg",
                 "hash": "d3ab5bb65feba08566dc321a3dba671b"
             }
-        }
-    },
-    "1694546926814948:78094": {
-        "IFileManager": {
-            "path": "Files/File_1694546926814948_78094.pvr"
         }
     }
 }

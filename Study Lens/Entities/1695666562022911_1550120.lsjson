@@ -1,0 +1,24 @@
+{
+    "1695666562022911:1550120": {
+        "IResourceController": {
+            "name": "Cloud Resources",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1695666562023068:1550121",
+            "resources": [
+                "1695666562023773:1550122",
+                "1695666562252693:1550237",
+                "1695666562507736:1550419"
+            ]
+        }
+    },
+    "1695666562023068:1550121": {
+        "IResourceController": {
+            "public": {
+                "path": "Cloud Resources"
+            }
+        }
+    }
+}

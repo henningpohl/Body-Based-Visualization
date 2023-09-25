@@ -1,0 +1,105 @@
+{
+    "1695666562214721:1550211": {
+        "IFileManager": {
+            "path": "Files/File_1695666562214721_1550211.mesh"
+        }
+    },
+    "1695666562217235:1550212": {
+        "IResourceController": {
+            "name": "Ltnng_003",
+            "type": 3,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695666562228306:1550214",
+            "fileId": "1695666562214721:1550211",
+            "publicId": "1695666562240581:1550228",
+            "expected_hash": "2f14fd533cb6ea59e899ec02fd42e180",
+            "additional": {
+                "info": {
+                    "hasBlendShapes": "false",
+                    "vertexAttribs": [
+                        {
+                            "canBeDisabled": "false",
+                            "format": "9",
+                            "semantic": "position"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "normal"
+                        },
+                        {
+                            "canBeDisabled": "true",
+                            "format": "9",
+                            "semantic": "boneData"
+                        }
+                    ]
+                }
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695666562228306:1550214",
+            "name": "Files/File_1695666562214721_1550211.mesh",
+            "flags": 1
+        }
+    },
+    "1695666562228306:1550214": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "3096",
+                "compressedSize": "2389",
+                "extension": "mesh",
+                "originalRAM": "3096",
+                "originalSize": "2389",
+                "settings": {
+                    "attributeFormat": "",
+                    "draco": {
+                        "colorBits": "8",
+                        "compressLvl": "7",
+                        "normalBits": "8",
+                        "posBits": "11",
+                        "texBits": "10"
+                    },
+                    "info": {
+                        "hasBlendShapes": "false",
+                        "vertexAttribs": [
+                            {
+                                "canBeDisabled": "false",
+                                "format": "9",
+                                "semantic": "position"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "normal"
+                            },
+                            {
+                                "canBeDisabled": "true",
+                                "format": "9",
+                                "semantic": "boneData"
+                            }
+                        ]
+                    },
+                    "isCompressed": "false",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1695666562234939:1550227"
+        }
+    },
+    "1695666562234939:1550227": {
+        "IFileManager": {
+            "path": "Files/File_1695666562234939_1550227.mesh"
+        }
+    },
+    "1695666562240581:1550228": {
+        "IResourceController": {
+            "public": {
+                "path": "Cloud Resources/Meshes/Ltnng_003.mesh",
+                "hash": "2f14fd533cb6ea59e899ec02fd42e180"
+            }
+        }
+    }
+}
