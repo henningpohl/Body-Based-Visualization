@@ -1,0 +1,38 @@
+{
+    "1695629524506457:678519": {
+        "IFileManager": {
+            "path": "Files/File_1695629524506457_678519.js"
+        }
+    },
+    "1695629524508691:678520": {
+        "IResourceController": {
+            "name": "Eye Clock",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695629524508720:678521",
+            "fileId": "1695629524506457:678519",
+            "publicId": "1695629524511974:678526",
+            "expected_hash": "7444c89b288b691e65603bb13186b9e8"
+        },
+        "IResourceManager": {
+            "uid": "1695629524508720:678521",
+            "name": "Files/File_1695629524506457_678519.js",
+            "flags": 1
+        }
+    },
+    "1695629524508720:678521": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1695629524511974:678526": {
+        "IResourceController": {
+            "public": {
+                "path": "Eye Clock/Eye Clock.js",
+                "hash": "7444c89b288b691e65603bb13186b9e8"
+            }
+        }
+    }
+}

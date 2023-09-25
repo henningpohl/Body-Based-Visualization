@@ -1,0 +1,23 @@
+{
+    "1695627164667770:270910": {
+        "IResourceController": {
+            "name": "Eye Clock",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1695627164667986:270911",
+            "resources": [
+                "1695628741776292:529833",
+                "1695629524508691:678520"
+            ]
+        }
+    },
+    "1695627164667986:270911": {
+        "IResourceController": {
+            "public": {
+                "path": "Eye Clock"
+            }
+        }
+    }
+}
