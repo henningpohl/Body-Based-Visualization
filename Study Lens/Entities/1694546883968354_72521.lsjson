@@ -3,7 +3,7 @@
         "IResourceController": {
             "public": {
                 "path": "Weather Info/VFX_Rain.lsvfx",
-                "hash": "4da0cba2e06c60781a58dab236e0e3ee"
+                "hash": "5bd9570e69e0314d6871dac935938133"
             }
         }
     },
@@ -25,7 +25,7 @@
             "publicId": "1694546883965445:72519",
             "expected_hash": "b402f6c68690c938fe01219d4841c1ae",
             "resources": [
-                "1694546884095550:72574"
+                "1695748292182808:10809"
             ]
         },
         "IResourceManager": {

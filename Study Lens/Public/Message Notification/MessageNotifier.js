@@ -14,7 +14,7 @@ script.createEvent("UpdateEvent").bind(function(eventData) {
     //var time = getDeltaTime();    
 });
 
-function toggleNotification(count) {
+script.api.toggleNotification = function(count) {
     var obj = script.getSceneObject();
     var transform = obj.getTransform();
     var bubbleTransform = script.bubbleRoot.getTransform();
@@ -66,8 +66,10 @@ function toggleNotification(count) {
     
 }
 
+/*
 script.createEvent("TapEvent").bind(function(eventData){   
     toggleNotification(Math.floor(Math.random() * 10).toString());
 });
+*/
 
 //toggleNotification("2");

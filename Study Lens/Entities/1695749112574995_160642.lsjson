@@ -1,0 +1,39 @@
+{
+    "1695749112573512:160641": {
+        "IFileManager": {
+            "path": "Files/File_1695749112573512_160641"
+        }
+    },
+    "1695749112574995:160642": {
+        "IResourceController": {
+            "name": "Weather Text",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695749112575000:160643",
+            "fileId": "1695749112573512:160641",
+            "originalId": "1695749112597422:160649",
+            "publicId": "1695749112878628:160715",
+            "expected_hash": "d45b2f084b10d670161b554c5022509d"
+        },
+        "IResourceManager": {
+            "uid": "1695749112575000:160643",
+            "name": "Files/File_1695749112573512_160641",
+            "flags": 1
+        }
+    },
+    "1695749112597422:160649": {
+        "IFileManager": {
+            "path": "Files/File_1695749112597422_160649.lsmat"
+        }
+    },
+    "1695749112878628:160715": {
+        "IResourceController": {
+            "public": {
+                "path": "Weather Info/Weather Text.lsmat",
+                "hash": "18d1bcdb0938fe8420beabefb8beb7e0"
+            }
+        }
+    }
+}

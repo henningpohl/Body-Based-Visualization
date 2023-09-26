@@ -14,7 +14,7 @@
             "uid": "1695322856434004:128937",
             "fileId": "1695322856431395:128935",
             "publicId": "1695322856436652:128945",
-            "expected_hash": "86398271c6309395df34d3299f0444c0"
+            "expected_hash": "c3cb04f72ee62d91806e856a59421f21"
         },
         "IResourceManager": {
             "uid": "1695322856434004:128937",
@@ -31,7 +31,7 @@
         "IResourceController": {
             "public": {
                 "path": "Message Notification/MessageNotifier.js",
-                "hash": "86398271c6309395df34d3299f0444c0"
+                "hash": "c3cb04f72ee62d91806e856a59421f21"
             }
         }
     }
