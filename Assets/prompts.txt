@@ -1,0 +1,9 @@
+https://perchance.org/ai-body-generator
+
++ woman, early 30s, selfie photo, realistic, blurry background, wide angle, frontal view, shallow depth of field, grainy, analog look
++ black woman, early 30s, selfie photo, realistic, blurry background, wide angle, frontal view, shallow depth of field, grainy, analog look, upper body in view, space above shoulders
++ black woman, early 30s, selfie photo, realistic, blurry background, wide angle, frontal view, shallow depth of field, grainy, analog look, upper body in view, space above shoulders, taken from above the head looking down
++ white man, early 20s, selfie photo, realistic, blurry background, wide angle, frontal view, shallow depth of field, grainy, analog look, upper body in view
++ white man, early 20s, selfie photo, realistic, blurry background, frontal view, shallow depth of field, grainy, analog look, upper body in view, wearing office shirt
+- cartoon, flat look
+
