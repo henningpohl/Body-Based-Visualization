@@ -7,3 +7,8 @@ https://perchance.org/ai-body-generator
 + white man, early 20s, selfie photo, realistic, blurry background, frontal view, shallow depth of field, grainy, analog look, upper body in view, wearing office shirt
 - cartoon, flat look
 
+
+// https://perchance.org/ai-icon-generator
++ human face, cyberpunk, abstract, futuristic, flat design, snapchat lens, ephemeral floating gui, cute, emoji
+- robot, machine, artificial
+Art style: flat style icon
