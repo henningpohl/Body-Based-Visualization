@@ -1,0 +1,79 @@
+{
+    "1695835134299927:416074": {
+        "IResourceController": {
+            "public": {
+                "path": "Emotion Tracker/EmotionMask-Eyes.png",
+                "hash": "67aa571e735293620f4944735526086d"
+            }
+        }
+    },
+    "1695835134305232:416077": {
+        "IFileManager": {
+            "path": "Files/File_1695835134305232_416077.pvr"
+        }
+    },
+    "1695835134307811:416078": {
+        "IResourceController": {
+            "name": "EmotionMask-Eyes",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695835134311570:416079",
+            "fileId": "1695835134305232:416077",
+            "originalId": "1695835134327271:416470",
+            "publicId": "1695835134299927:416074",
+            "expected_hash": "6d880252747ab7b844886d06200c2dc7",
+            "additional": {
+                "originHash": "67aa571e735293620f4944735526086d"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1695835134311570:416079",
+            "name": "Files/File_1695835134305232_416077.png",
+            "flags": 1
+        }
+    },
+    "1695835134311570:416079": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "67aa571e735293620f4944735526086d"
+                    },
+                    "v": "1695837522132028:1047672"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "705200",
+                "compressedSize": "25572",
+                "extension": "png",
+                "originalRAM": "5641600",
+                "originalSize": "33694",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1695837521560582:1045731"
+        }
+    },
+    "1695835134327271:416470": {
+        "IFileManager": {
+            "path": "Files/File_1695835134327271_416470.png"
+        }
+    },
+    "1695837521560582:1045731": {
+        "IFileManager": {
+            "path": "Files/File_1695837521560582_1045731.png"
+        }
+    },
+    "1695837522132028:1047672": {
+        "IFileManager": {
+            "path": "Files/File_1695837522132028_1047672.pvr"
+        }
+    }
+}

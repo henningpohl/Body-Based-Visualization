@@ -3,7 +3,7 @@
         "IResourceController": {
             "public": {
                 "path": "Scripts/StudyController.js",
-                "hash": "f95f5b40779d89814648957cc95cb807"
+                "hash": "9d9b67929597dd19e42f829159fc3816"
             }
         }
     },
@@ -22,7 +22,7 @@
             "uid": "1694459986276759:159215",
             "fileId": "1694459986274580:159213",
             "publicId": "1694459986274129:159212",
-            "expected_hash": "f95f5b40779d89814648957cc95cb807"
+            "expected_hash": "9d9b67929597dd19e42f829159fc3816"
         },
         "IResourceManager": {
             "uid": "1694459986276759:159215",

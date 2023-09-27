@@ -237,7 +237,7 @@
         },
         "Material::UiComponent": "",
         "MetaInfoUIComponent": {
-            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_hash": "c93cd661d4ef73e7b01c15baebe2fc4c",
             "icon_path": "icon.png",
             "hints": [
                 ""
@@ -266,7 +266,7 @@
             "preview_images_project_config": {
                 "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "local:C:\/Users\/Henning\/Desktop\/Face Feedback\/Assets\/Perchance07.jpg",
+                "front_preview_id": "local:C:\/Users\/Henning\/Desktop\/Face Feedback\/Assets\/EmotionMask-Full.png",
                 "front_preview_is_favorite": "false"
             },
             "preview_videos_project_config": {

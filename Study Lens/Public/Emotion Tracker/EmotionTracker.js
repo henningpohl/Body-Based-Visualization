@@ -1,19 +1,15 @@
 // -----JS CODE-----
 // @input Asset.RenderMesh faceMesh
-// @input Component.Text outText
+// @input Asset.Material maskMaterial
 // Alternative: https://medium.com/@adrienchuttarsing/making-an-emotion-recognition-model-for-snapchat-filter-with-lens-studio-c24dc0488fa0
 
 var buffer = [];
 var bufferMax = 50;
 
-global.emotionTrackerActive = true;
+global.emotionTrackerActive = false;
+var alpha = 0.0;
 
 function onFrame(eventData) {
-    if(!global.emotionTrackerActive) {
-        script.outText.text = "";
-        return;
-    }    
-    
     var mouthSmileLeftWeight = script.faceMesh.control.getExpressionWeightByName(Expressions.MouthSmileLeft);
     var mouthSmileRightWeight = script.faceMesh.control.getExpressionWeightByName(Expressions.MouthSmileRight);
     var mouthFrownLeftWeight = script.faceMesh.control.getExpressionWeightByName(Expressions.MouthFrownLeft);
@@ -25,21 +21,17 @@ function onFrame(eventData) {
         buffer.shift();
     }
     
-    var smile = buffer.reduce((a, x) => a + x, 0) / buffer.length;
-    
-    if(smile > 1.2) {
-        script.outText.text = "😄";
-    } else if(smile > 0.9) {   
-        script.outText.text = "😀";
-    } else if(smile > 0.25) {
-        script.outText.text = "😐";
-    } else if(smile > 0.15) {
-        script.outText.text = "😟";
+    if(!global.emotionTrackerActive) {
+        alpha = Math.max(0.0, alpha - getDeltaTime() * 0.3);        
     } else {
-        script.outText.text = "☹";
+        alpha = Math.min(0.8, alpha + getDeltaTime() * 0.3);
     }
-    
-    //script.outText.text = mouthOverall.toString();
+
+    script.maskMaterial.mainPass.Tweak_N33 = alpha;    
+    var smile = buffer.reduce((a, x) => a + x, 0) / buffer.length;
+    smile = MathUtils.remap(smile, 0.0, 1.5, 0.0, 1.0);
+    script.maskMaterial.mainPass.Tweak_N29 = smile;
+
     //Studio.log(mouthSmileLeftWeight);
 }
 

@@ -1,4 +1,5 @@
 // -----JS CODE-----
+// @input Component.Head headBinding
 // @input SceneObject badgeObj
 // @input Component.ScriptComponent weatherScript
 // @input Component.ScriptComponent messageScript
@@ -6,11 +7,16 @@
 // @input vec2 cloudAppearTime
 // @input vec2 weatherChangeTime
 // @input vec2 cloudLeaveTime
+// @input vec2 emotionTrackerStartTime
+// @input vec2 emotionTrackerEndTime
 // @input vec2[] messageNotificationTimes 
 
 var cloudShowTime = MathUtils.randomRange(script.cloudAppearTime.x, script.cloudAppearTime.y);
 var cloudChangeTime = MathUtils.randomRange(script.weatherChangeTime.x, script.weatherChangeTime.y);
 var cloudGoneTime = MathUtils.randomRange(script.cloudLeaveTime.x, script.cloudLeaveTime.y);
+
+var emotionTrackerStartTime = MathUtils.randomRange(script.emotionTrackerStartTime.x, script.emotionTrackerStartTime.y);
+var emotionTrackerEndTime = MathUtils.randomRange(script.emotionTrackerEndTime.x, script.emotionTrackerEndTime.y);
 
 var messageTimes = [];
 for(var i in script.messageNotificationTimes) {
@@ -18,10 +24,18 @@ for(var i in script.messageNotificationTimes) {
     messageTimes.push(MathUtils.randomRange(inputRange.x, inputRange.y));
 }
 
+//script.badgeObj.enabled = false;    
+
 var lastTime = 0.0;
+var offsetTime = 0.0;
 
 function onFrame(eventData) {
-    var curTime = getTime();
+    if(script.headBinding.getFacesCount() != 1) {
+        offsetTime += getDeltaTime();
+        return;
+    }
+    
+    var curTime = getTime() - offsetTime;
     
     function momentPassed(time) {
         return (curTime > time) && (lastTime < time);
@@ -39,6 +53,14 @@ function onFrame(eventData) {
         script.weatherScript.api.hideWeather();
         Studio.log('Hiding cloud');
     }
+    if(momentPassed(emotionTrackerStartTime)) {
+        global.emotionTrackerActive = true;
+        Studio.log('Emotion tracking activated');
+    }
+    if(momentPassed(emotionTrackerEndTime)) {
+        global.emotionTrackerActive = false;
+        Studio.log('Emotion tracking deactivated');
+    }
     
     for(var i = 0; i < messageTimes.length; ++i) {
         if(momentPassed(messageTimes[i])) {
@@ -47,21 +69,11 @@ function onFrame(eventData) {
         }
     }
     
-    /*
-    if(getTime() > 5.0) {
-        script.badgeObj.enabled = true;
-//        global.emotionTrackerActive = true;
-    }
-    */
     
     lastTime = curTime;
 }
 
 
-// hide everything first
-if(false) {
-    script.badgeObj.enabled = false;    
-}
 
 var event = script.createEvent("UpdateEvent");
 event.bind(onFrame);

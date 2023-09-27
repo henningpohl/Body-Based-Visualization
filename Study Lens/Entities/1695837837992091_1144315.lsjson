@@ -1,0 +1,39 @@
+{
+    "1695837837990653:1144314": {
+        "IFileManager": {
+            "path": "Files/File_1695837837990653_1144314"
+        }
+    },
+    "1695837837992091:1144315": {
+        "IResourceController": {
+            "name": "Face Mask",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1695837837992095:1144316",
+            "fileId": "1695837837990653:1144314",
+            "originalId": "1695837838013904:1144322",
+            "publicId": "1695837838280773:1144430",
+            "expected_hash": "04a559d4e87c0c050d64af6638ce364b"
+        },
+        "IResourceManager": {
+            "uid": "1695837837992095:1144316",
+            "name": "Files/File_1695837837990653_1144314",
+            "flags": 1
+        }
+    },
+    "1695837838013904:1144322": {
+        "IFileManager": {
+            "path": "Files/File_1695837838013904_1144322.lsmat"
+        }
+    },
+    "1695837838280773:1144430": {
+        "IResourceController": {
+            "public": {
+                "path": "Emotion Tracker/Face Mask.lsmat",
+                "hash": "dc3db8f0fb7d090c73d8815b8d398d65"
+            }
+        }
+    }
+}

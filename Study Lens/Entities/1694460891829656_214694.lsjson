@@ -3,7 +3,7 @@
         "IResourceController": {
             "public": {
                 "path": "Emotion Tracker/EmotionTracker.js",
-                "hash": "d939f11b200541a8b15c6c47fe5004ce"
+                "hash": "ff74125e7c124e1746f2f1620e343f7a"
             }
         }
     },
@@ -22,7 +22,7 @@
             "uid": "1694460891829667:214695",
             "fileId": "1694460891827398:214693",
             "publicId": "1694460891826898:214692",
-            "expected_hash": "d939f11b200541a8b15c6c47fe5004ce"
+            "expected_hash": "ff74125e7c124e1746f2f1620e343f7a"
         },
         "IResourceManager": {
             "uid": "1694460891829667:214695",
