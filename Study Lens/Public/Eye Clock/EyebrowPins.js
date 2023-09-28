@@ -20,9 +20,11 @@ script.createEvent('UpdateEvent').bind(function(eventData) {
         return;
     }
     
-    var time = getTime();
-    var seconds = time % 60;
-    var minutes = Math.floor((time - seconds) / 60.0);
+    var seconds = global.clockTime % 60;
+    var minutes = Math.floor((global.clockTime - seconds) / 60.0);
+    if(!global.clockShown) {
+        minutes = 0;
+    }
     
     var controlLength = 0.0;
     for(var i = 0; i < eyebrowIDs.length; ++i) {

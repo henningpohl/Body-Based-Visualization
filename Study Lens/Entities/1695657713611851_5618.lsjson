@@ -3,7 +3,7 @@
         "IResourceController": {
             "public": {
                 "path": "Eye Clock/EyebrowPins.js",
-                "hash": "0a36f4ce89264c9d22924903b50a96b5"
+                "hash": "9b7fb3906d719e706a6ec0c5c02ff5df"
             }
         }
     },
@@ -22,7 +22,7 @@
             "uid": "1695657713611871:5619",
             "fileId": "1695657713608713:5617",
             "publicId": "1695657713608184:5616",
-            "expected_hash": "0a36f4ce89264c9d22924903b50a96b5"
+            "expected_hash": "9b7fb3906d719e706a6ec0c5c02ff5df"
         },
         "IResourceManager": {
             "uid": "1695657713611871:5619",

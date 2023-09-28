@@ -15,7 +15,7 @@
             "fileId": "1695837837990653:1144314",
             "originalId": "1695837838013904:1144322",
             "publicId": "1695837838280773:1144430",
-            "expected_hash": "04a559d4e87c0c050d64af6638ce364b"
+            "expected_hash": "af5f4aa141838ef3bf61edb077b98eaf"
         },
         "IResourceManager": {
             "uid": "1695837837992095:1144316",
@@ -32,7 +32,7 @@
         "IResourceController": {
             "public": {
                 "path": "Emotion Tracker/Face Mask.lsmat",
-                "hash": "dc3db8f0fb7d090c73d8815b8d398d65"
+                "hash": "aa08a61af9cda2b48ef309abe2797fd5"
             }
         }
     }

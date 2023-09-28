@@ -3,12 +3,14 @@
 // @input SceneObject badgeObj
 // @input Component.ScriptComponent weatherScript
 // @input Component.ScriptComponent messageScript
+// @input Component.Text pauseText
 // @ui {"widget":"separator"}
 // @input vec2 cloudAppearTime
 // @input vec2 weatherChangeTime
 // @input vec2 cloudLeaveTime
 // @input vec2 emotionTrackerStartTime
 // @input vec2 emotionTrackerEndTime
+// @input vec2 clockAppearTime
 // @input vec2[] messageNotificationTimes 
 
 var cloudShowTime = MathUtils.randomRange(script.cloudAppearTime.x, script.cloudAppearTime.y);
@@ -17,6 +19,8 @@ var cloudGoneTime = MathUtils.randomRange(script.cloudLeaveTime.x, script.cloudL
 
 var emotionTrackerStartTime = MathUtils.randomRange(script.emotionTrackerStartTime.x, script.emotionTrackerStartTime.y);
 var emotionTrackerEndTime = MathUtils.randomRange(script.emotionTrackerEndTime.x, script.emotionTrackerEndTime.y);
+
+var clockAppearTime = MathUtils.randomRange(script.clockAppearTime.x, script.clockAppearTime.y);
 
 var messageTimes = [];
 for(var i in script.messageNotificationTimes) {
@@ -28,9 +32,10 @@ for(var i in script.messageNotificationTimes) {
 
 var lastTime = 0.0;
 var offsetTime = 0.0;
+var paused = true;
 
 function onFrame(eventData) {
-    if(script.headBinding.getFacesCount() != 1) {
+    if(paused || script.headBinding.getFacesCount() != 1) {
         offsetTime += getDeltaTime();
         return;
     }
@@ -61,6 +66,11 @@ function onFrame(eventData) {
         global.emotionTrackerActive = false;
         Studio.log('Emotion tracking deactivated');
     }
+    if(momentPassed(clockAppearTime)) {
+        global.clockShown = true;
+        Studio.log('Showing clock');
+    }
+    
     
     for(var i = 0; i < messageTimes.length; ++i) {
         if(momentPassed(messageTimes[i])) {
@@ -68,7 +78,6 @@ function onFrame(eventData) {
             Studio.log('Showing message notification');
         }
     }
-    
     
     lastTime = curTime;
 }
@@ -79,5 +88,12 @@ var event = script.createEvent("UpdateEvent");
 event.bind(onFrame);
 
 script.createEvent('TapEvent').bind(function(eventData) {
-    //script.weatherScript.api.triggerBadWeather();
+    paused = !paused;
+    if(paused) {
+        global.clockRunning = false;
+        script.pauseText.enabled = true;
+    } else {
+        global.clockRunning = true;
+        script.pauseText.enabled = false;
+    }
 });

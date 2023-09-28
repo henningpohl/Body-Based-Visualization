@@ -1,6 +1,7 @@
 // -----JS CODE-----
 // @input vec3 inPos
 // @input vec3 outPos
+// @input float bubbleDurationSeconds
 // @input SceneObject bubbleRoot
 // @input Component.Text bubbleNumberText
 // https://docs.snap.com/lens-studio/references/templates/object/Try-On/earring-try-on
@@ -45,12 +46,12 @@ script.api.toggleNotification = function(count) {
     .onUpdate(updateRod);
     
     var bubbleOutTween = new TWEEN.Tween({x: -2.8}, msgTweens)
-    .to({x: 0}, 900.0)
+    .to({x: 0}, 1000.0)
     .easing(TWEEN.Easing.Elastic.Out)
     .onUpdate(updateBubble);
     
     var bubbleInTween = new TWEEN.Tween({x: 0}, msgTweens)
-    .to({x: -2.8}, 900.0)
+    .to({x: -2.8}, 1000.0)
     .easing(TWEEN.Easing.Elastic.In)
     .onUpdate(updateBubble);
     
@@ -58,7 +59,7 @@ script.api.toggleNotification = function(count) {
     curCount = count;
     rodOutTween.chain(bubbleOutTween);
     bubbleOutTween.chain(bubbleInTween);
-    bubbleInTween.delay(20000);
+    bubbleInTween.delay(script.bubbleDurationSeconds * 1000);
     bubbleInTween.chain(rodInTween);
     rodOutTween.start();
 

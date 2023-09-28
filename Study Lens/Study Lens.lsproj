@@ -294,6 +294,7 @@
                 "unrecognizedMaterials": ""
             }
         },
+        "InspectorComponent": "",
         "LayerComponent": {
             "nextLayerId": "2",
             "showOrthographicLayer": "true",
