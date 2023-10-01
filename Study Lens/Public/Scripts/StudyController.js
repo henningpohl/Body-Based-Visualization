@@ -30,11 +30,20 @@ for(var i in script.messageNotificationTimes) {
 
 //script.badgeObj.enabled = false;    
 
+// https://docs.snap.com/lens-studio/references/guides/lens-features/adding-interactivity/touch-input#basic-use
+global.touchSystem.touchBlocking = true;
+
+
 var lastTime = 0.0;
 var offsetTime = 0.0;
 var paused = true;
 
 function onFrame(eventData) {
+    if(paused && (getTime() > 10)) {
+        onTap(null);
+        Studio.log('Forced unpausing');
+    }
+    
     if(paused || script.headBinding.getFacesCount() != 1) {
         offsetTime += getDeltaTime();
         return;
@@ -82,12 +91,10 @@ function onFrame(eventData) {
     lastTime = curTime;
 }
 
-
-
 var event = script.createEvent("UpdateEvent");
 event.bind(onFrame);
 
-script.createEvent('TapEvent').bind(function(eventData) {
+function onTap(eventData) {
     paused = !paused;
     if(paused) {
         global.clockRunning = false;
@@ -96,4 +103,5 @@ script.createEvent('TapEvent').bind(function(eventData) {
         global.clockRunning = true;
         script.pauseText.enabled = false;
     }
-});
+}
+script.createEvent('TapEvent').bind(onTap);

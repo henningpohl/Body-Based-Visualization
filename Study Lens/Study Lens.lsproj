@@ -237,13 +237,13 @@
         },
         "Material::UiComponent": "",
         "MetaInfoUIComponent": {
-            "icon_hash": "c93cd661d4ef73e7b01c15baebe2fc4c",
+            "icon_hash": "0eb69ed1656c4010082c17e3f3afc6c8",
             "icon_path": "icon.png",
             "hints": [
                 ""
             ],
             "lens": "SnapStudyLens",
-            "applicability": "3",
+            "applicability": "1",
             "compatibility_descriptors": [
                 "mobile",
                 "web"
