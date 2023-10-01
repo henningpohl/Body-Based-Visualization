@@ -1,0 +1,27 @@
+Title: Snapchat Video Call Study
+
+Intro: Hi there, thanks for taking part in this study. Right now, we would like you to schedule a time for a quick 5-10 minute video call with [us on Snapchat (username: fall23study)](https://www.snapchat.com/add/fall23study?share_id=FI67UbkARLQ&locale=en-US?useTarget=_blank). You can pick from the available slots on the right side. We will send you a message with further instructions afterwards.
+
+Questions:
+- Short answer, "Nickname (how we should address you during the video chat)", FNAME, not required
+- Email adderss, "Prolific Email (id@email.prolific.co, note: not '.com')", EMAIL, required
+- Short answer, "Prolific ID", PROLIFIC, required
+- Multiple choice, "Please pick a topic you would like us to chat about", TOPIC, required
+  -> I would like to chat about food
+  -> I would like to chat about shows/movies
+  -> I would like to chat about the weather
+  -> I would like to chat about video games
+  -> Other (you can pick what else)
+- Dividing line
+- Block of text, "Informed consent"
+   Your participation in this research is voluntary. You have the right to withdraw at any point during the study, for any reason, and without any prejudice. If you would like to contact the Principal Investigator in the study to discuss this research, please message henning@cs.aau.dk.
+       
+   By checking the box below, you acknowledge that you understand the above information, are at least 18 years of age, and consent to take part in this study.
+- Checkbox, "I acknowledge the above, am of age, and consent.", CONSENT, required
+
+After booking confirmation:
+  Thanks {FNAME} ({PROLIFIC}),
+
+  You'll receive a notification confirming the meeting details shortly. Please now head [back to Prolific](https://app.prolific.co/submissions/complete?cc=C14N08G7) to complete this first step of the study.
+  
+Link: https://videocallstudy.youcanbook.me/

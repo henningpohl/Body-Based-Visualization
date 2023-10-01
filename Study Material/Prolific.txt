@@ -1,0 +1,29 @@
+Title: Participating in a Short Conversation on Snapchat
+
+Internal name: SnapchatFaceFeedbackStudy
+
+Description:
+I this study, we would like you to have a brief conversation with another participant via a video call within Snapchat. Thus you need to have or be willing to create a Snapchat account to participate. You can do so on your phone or tablet via the Snapchat app, or on any device with Snapchat for Web. The conversation will last about 5-10 minutes and you can pick the topic for the conversation. The video call does not start right away and instead you will first just be redirected to a website where we will ask you for consent and to schedule that call with you. So you can pick a time for the video call that works best for you. The call itself is not recorded and no personal information on you is collected. You can optionally give us a name or nickname with which we should address you during the call. After the video call has then concluded, we will ask you to fill out a short questionnaire on another website. We will share that link with you at the end of the call.
+
+Devices: mobile, tabled, or desktop
+
+Requirements: audio, camera, microphone
+
+URL: https://videocallstudy.youcanbook.me/
+
+Prolific ID: Question in study
+
+Completion code: manually reviewed, URL = https://app.prolific.com/submissions/complete?cc=C14N08G7
+
+Audience:
+- All countries
+- Balanced sample
+- Fluent language: English
+- Video call interview: yes, would be willing
+
+Study duration: 30 minutes
+Payment: 5 GBP
+
+
+Relevant links:
+- https://researcher-help.prolific.com/hc/en-gb/articles/360009222893-How-can-I-contact-participants
