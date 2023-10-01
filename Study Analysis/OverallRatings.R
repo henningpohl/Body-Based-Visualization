@@ -33,6 +33,6 @@ tibble(level = levels(elementRatings$Response)) |>
   theme(plot.margin=margin(l=-0.3, r=-0.3, unit='in')) ->
   plotB
 
-ggarrange(plotA, plotB, nrow=2, heights=c(0.95, 0.05))
-ggsave('OverallRatings.pdf', scale=1.8, width=3.34, height=3.1, units="in", device=cairo_pdf)
+ggarrange(plotA, plotB, nrow=2, heights=c(0.92, 0.08))
+ggsave('OverallRatings.pdf', scale=1.8, width=3.34, height=2.1, units="in", device=cairo_pdf)
 
