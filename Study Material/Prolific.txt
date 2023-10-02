@@ -27,3 +27,5 @@ Payment: 5 GBP
 
 Relevant links:
 - https://researcher-help.prolific.com/hc/en-gb/articles/360009222893-How-can-I-contact-participants
+- https://researcher-help.prolific.com/hc/en-gb/articles/360014549920-How-do-I-run-video-interviews-focus-groups
+- https://researcher-help.prolific.co/hc/en-gb/articles/360015378834
