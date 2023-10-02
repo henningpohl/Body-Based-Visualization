@@ -1,0 +1,97 @@
+Sent pre call info:
+64f3ad25c93a6f6d60e6acd8 (Mickey)
+5d5a1e6c9fe0f000170f416e (Ian)
+6480d0f369d301b4e2c1414e (Jan)
+645532829f1b1e5f8bf37b2c (Nikita)
+615e80f8f7b842e4f5653268 (Zanele)
+611666722763d407c769eb9b (Neo)
+61176ed28c8935138ab6a64b (Fish)
+5f8f93586e3bb720c55869ff (Nacho)
+6135ce2a32b53777552a46b0 (Dean)
+6120153a62e44ca1b6fa08c5 (T)
+
+611d6078d33b376bfb58198f (MJ)
+647871fb42a6b6651b3a66b8 (Yerusha)
+6161d0adb5f4801077840616 (Bebe)
+60f8334891c71768b6719ef6 (Arehone)
+5fc51d0db609ae0e6834a36d (Taty)
+650de189b6f20e6ef24e8578 (kacperczarnom05)
+6501c0a2e788b5556c24569d (anon)
+6152d419629f8da49913f106 (oranja)
+60ec6288c8facd0e581b53f9 (Heus)
+61216c57c465b4c0b056f277 (Belly)
+
+60d1ac7ce6accf3bc85d834d (sundee)
+610570cb1ba398e504f289d0 (Riri)
+6160ccb0810a73f90ef4c5e7 (Black)
+
+
+Sent post call info:
+
+6135ce2a32b53777552a46b0 (Dean)
+5f8f93586e3bb720c55869ff (Nacho)
+647871fb42a6b6651b3a66b8 (Yerusha)
+650de189b6f20e6ef24e8578 (kacperczarnom05)
+6161d0adb5f4801077840616 (Bebe)
+6152d419629f8da49913f106 (oranja)
+64f3ad25c93a6f6d60e6acd8 (Mickey)
+5fc51d0db609ae0e6834a36d (Taty)
+6120153a62e44ca1b6fa08c5 (T)
+6501c0a2e788b5556c24569d (anon)
+
+61176ed28c8935138ab6a64b (Fish)
+60ec6288c8facd0e581b53f9 (Heus)
+60d1ac7ce6accf3bc85d834d (sundee)
+615e80f8f7b842e4f5653268 (Zanele)
+6160ccb0810a73f90ef4c5e7 (Black)
+610570cb1ba398e504f289d0 (Riri)
+
+Technical difficulties:
+611666722763d407c769eb9b (Neo)
+-> https://community.snap.com/snapar/discussion/3316/ensure-own-lens-shows-up-during-video-chat/p1?new=1
+
+
+Didn't show up:
+6480d0f369d301b4e2c1414e (Jan)
+5d5a1e6c9fe0f000170f416e (Ian)
+60f8334891c71768b6719ef6 (Arehone)
+645532829f1b1e5f8bf37b2c (Nikita)
+61216c57c465b4c0b056f277 (Belly)
+611d6078d33b376bfb58198f (MJ)
+
+Friday:
+21:45 -> Neo (shows/movies) # lens not available in app
+
+Saturday:
+8:00  -> Dean (video games) # didn't have camera on
+8:15  -> Nacho (weather)
+# Emotion tracker was inactive. Fixed after here
+8:45  -> Yarusha (food)
+9:00  -> kacperczarnom05 (video games)
+10:00 -> Jan (weather) # no-show
+10:30 -> Bebe (shows/movies)
+10:45 -> oranja (shows/movies) # no-show
+12:30 -> oranja (weather)
+13:30 -> Mickey (food) # no-show
+14:00 -> Mickey (food)
+14:30 -> T (shows/movies) # no-show
+15:00 -> Taty (food)
+15:15 -> T (shows/movies) 
+18:00 -> anon (shows/movies)
+19:00 -> Fish (shows/movies)
+21:00 -> Ian (video games) # no-show
+21:45 -> Arehone (food) # no-show
+
+Sunday:
+8:00  -> Nikita (weather) # no-show
+11:00 -> Heus (shows/movies)
+11:15 -> Belly (shows/movies) # no-show
+12:00 -> sundee (shows/movies)
+12:45 -> Zanele (food)
+16:30 -> Riri (food) # no-show
+17:45 -> Black (other) # we talked about music. Very weird vibe and he was not really engaged
+20:45 -> MJ (other) # no-show
+
+Monday:
+17:00 -> Riri (food)
+21:00 -> MJ (other) # no-show again
