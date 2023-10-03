@@ -8,6 +8,7 @@ template = Template('''
 <title>Participant Comments</title>
 <style>
 body { max-width:800px; margin: auto; }
+.block { page-break-inside: avoid; }
 dt { font-weight: bold; }
 dd { margin: 0 0 0.5em 0; padding: 0 0 0.5em 0; }
 </style>
@@ -16,6 +17,7 @@ dd { margin: 0 0 0.5em 0; padding: 0 0 0.5em 0; }
 
 {% for comment in comments %}
 
+<div class="block">
 <h2>{{ comment[1] }}</h2>
 <dl>
 <dt>How would you describe the effect of those visualizations on the conversation from your perspective?</dt>
@@ -27,6 +29,7 @@ dd { margin: 0 0 0.5em 0; padding: 0 0 0.5em 0; }
 <dt>Do you have any other comments for us?</dt>
 <dd>{{ comment[5] }}</dd>
 </dl>
+</div>
 
 {% endfor %}
 
