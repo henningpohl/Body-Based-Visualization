@@ -1,0 +1,33 @@
+{
+    "1696443028496547:213800": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans-SemiBold.ttf",
+                "hash": "58fb53a79ecf1314a1f38bceb8b2a992"
+            }
+        }
+    },
+    "1696443028497291:213801": {
+        "IFileManager": {
+            "path": "Files/File_1696443028497291_213801.ttf"
+        }
+    },
+    "1696443028501571:213802": {
+        "IResourceController": {
+            "name": "OpenSans-SemiBold",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028501589:213803",
+            "fileId": "1696443028497291:213801",
+            "publicId": "1696443028496547:213800",
+            "expected_hash": "58fb53a79ecf1314a1f38bceb8b2a992"
+        },
+        "IResourceManager": {
+            "uid": "1696443028501589:213803",
+            "name": "Files/File_1696443028497291_213801.ttf",
+            "flags": 1
+        }
+    }
+}

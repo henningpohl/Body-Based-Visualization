@@ -257,12 +257,12 @@
         "ObjectTracking3DUIComponent": "",
         "PreviewUiComponent": {
             "preview_descriptor": {
-                "is_capture": "0",
+                "is_capture": "1",
                 "camera_type": "2"
             },
             "show_snap_ui": "false",
             "show_sponsored_ui": "false",
-            "input_stream_type": "WebCam",
+            "input_stream_type": "Video",
             "preview_images_project_config": {
                 "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
                 "back_preview_is_favorite": "false",
@@ -272,7 +272,7 @@
             "preview_videos_project_config": {
                 "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Videos\/Smile Person 4.webm",
+                "front_preview_id": "local:C:\/Users\/Henning\/Desktop\/Face Feedback\/Video\/pexels-tima-miroshnichenko-5442623 (1080p).mp4",
                 "front_preview_is_favorite": "false"
             },
             "preview_ie_project_config": {

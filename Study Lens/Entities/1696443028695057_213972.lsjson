@@ -1,0 +1,33 @@
+{
+    "1696443028690100:213970": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_Condensed-SemiBoldItalic.ttf",
+                "hash": "cfff7a863297129af11620e99f618651"
+            }
+        }
+    },
+    "1696443028690967:213971": {
+        "IFileManager": {
+            "path": "Files/File_1696443028690967_213971.ttf"
+        }
+    },
+    "1696443028695057:213972": {
+        "IResourceController": {
+            "name": "OpenSans_Condensed-SemiBoldItalic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028695081:213973",
+            "fileId": "1696443028690967:213971",
+            "publicId": "1696443028690100:213970",
+            "expected_hash": "cfff7a863297129af11620e99f618651"
+        },
+        "IResourceManager": {
+            "uid": "1696443028695081:213973",
+            "name": "Files/File_1696443028690967_213971.ttf",
+            "flags": 1
+        }
+    }
+}

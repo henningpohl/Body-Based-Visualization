@@ -1,0 +1,33 @@
+{
+    "1696443028475186:213790": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans-Regular.ttf",
+                "hash": "7df68ccfcb8ffe00669871052a4929c9"
+            }
+        }
+    },
+    "1696443028475873:213791": {
+        "IFileManager": {
+            "path": "Files/File_1696443028475873_213791.ttf"
+        }
+    },
+    "1696443028479768:213792": {
+        "IResourceController": {
+            "name": "OpenSans-Regular",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028479788:213793",
+            "fileId": "1696443028475873:213791",
+            "publicId": "1696443028475186:213790",
+            "expected_hash": "7df68ccfcb8ffe00669871052a4929c9"
+        },
+        "IResourceManager": {
+            "uid": "1696443028479788:213793",
+            "name": "Files/File_1696443028475873_213791.ttf",
+            "flags": 1
+        }
+    }
+}

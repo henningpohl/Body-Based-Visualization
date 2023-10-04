@@ -1,0 +1,38 @@
+{
+    "1696442589883010:37030": {
+        "IFileManager": {
+            "path": "Files/File_1696442589883010_37030.js"
+        }
+    },
+    "1696442589885239:37033": {
+        "IResourceController": {
+            "name": "StudyVideoController",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696442589885253:37034",
+            "fileId": "1696442589883010:37030",
+            "publicId": "1696442589891784:37044",
+            "expected_hash": "00819cb41a821b0a4650653315dd757f"
+        },
+        "IResourceManager": {
+            "uid": "1696442589885253:37034",
+            "name": "Files/File_1696442589883010_37030.js",
+            "flags": 1
+        }
+    },
+    "1696442589885253:37034": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1696442589891784:37044": {
+        "IResourceController": {
+            "public": {
+                "path": "Scripts/StudyVideoController.js",
+                "hash": "00819cb41a821b0a4650653315dd757f"
+            }
+        }
+    }
+}

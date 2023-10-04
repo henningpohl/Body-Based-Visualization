@@ -1,0 +1,33 @@
+{
+    "1696443028380895:213709": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans-ExtraBoldItalic.ttf",
+                "hash": "119b7999f1a6c47f124e9b87c756e560"
+            }
+        }
+    },
+    "1696443028381618:213710": {
+        "IFileManager": {
+            "path": "Files/File_1696443028381618_213710.ttf"
+        }
+    },
+    "1696443028386072:213711": {
+        "IResourceController": {
+            "name": "OpenSans-ExtraBoldItalic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028386094:213712",
+            "fileId": "1696443028381618:213710",
+            "publicId": "1696443028380895:213709",
+            "expected_hash": "119b7999f1a6c47f124e9b87c756e560"
+        },
+        "IResourceManager": {
+            "uid": "1696443028386094:213712",
+            "name": "Files/File_1696443028381618_213710.ttf",
+            "flags": 1
+        }
+    }
+}

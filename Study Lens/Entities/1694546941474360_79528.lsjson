@@ -3,7 +3,7 @@
         "IResourceController": {
             "public": {
                 "path": "Weather Info/WeatherNotification.js",
-                "hash": "490070495c610d9c431b95a7d2934713"
+                "hash": "b9505c9dec0df5f365714e5df93d1165"
             }
         }
     },
@@ -22,7 +22,7 @@
             "uid": "1694546941474384:79529",
             "fileId": "1694546941472389:79527",
             "publicId": "1694546941471829:79526",
-            "expected_hash": "490070495c610d9c431b95a7d2934713"
+            "expected_hash": "b9505c9dec0df5f365714e5df93d1165"
         },
         "IResourceManager": {
             "uid": "1694546941474384:79529",

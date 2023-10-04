@@ -1,0 +1,33 @@
+{
+    "1696443028731044:214005": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_SemiCondensed-ExtraBold.ttf",
+                "hash": "fa7f028a91035be24beb6e14f9152c0f"
+            }
+        }
+    },
+    "1696443028731764:214006": {
+        "IFileManager": {
+            "path": "Files/File_1696443028731764_214006.ttf"
+        }
+    },
+    "1696443028735643:214016": {
+        "IResourceController": {
+            "name": "OpenSans_SemiCondensed-ExtraBold",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028735657:214017",
+            "fileId": "1696443028731764:214006",
+            "publicId": "1696443028731044:214005",
+            "expected_hash": "fa7f028a91035be24beb6e14f9152c0f"
+        },
+        "IResourceManager": {
+            "uid": "1696443028735657:214017",
+            "name": "Files/File_1696443028731764_214006.ttf",
+            "flags": 1
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "1696443028542813:213844": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_Condensed-BoldItalic.ttf",
+                "hash": "1ccdb95c8121b3bc6a1199f589fd00d8"
+            }
+        }
+    },
+    "1696443028543574:213845": {
+        "IFileManager": {
+            "path": "Files/File_1696443028543574_213845.ttf"
+        }
+    },
+    "1696443028547941:213846": {
+        "IResourceController": {
+            "name": "OpenSans_Condensed-BoldItalic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028547959:213847",
+            "fileId": "1696443028543574:213845",
+            "publicId": "1696443028542813:213844",
+            "expected_hash": "1ccdb95c8121b3bc6a1199f589fd00d8"
+        },
+        "IResourceManager": {
+            "uid": "1696443028547959:213847",
+            "name": "Files/File_1696443028543574_213845.ttf",
+            "flags": 1
+        }
+    }
+}

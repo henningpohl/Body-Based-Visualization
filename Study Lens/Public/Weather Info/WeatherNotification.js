@@ -59,6 +59,7 @@ script.api.showWeather = function() {
 
 script.api.hideWeather = function() {
     hideInfoLabel();
+    script.rainVFX.enabled = false;
     
     new TWEEN.Tween({x: finalPos.x, y: finalPos.y, z: finalPos.z, scale: finalScale.x}, weatherTweens)
     .to({x: -20, y: -20, z: 5, scale: 0}, 2000.0)

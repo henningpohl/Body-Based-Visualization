@@ -1,0 +1,33 @@
+{
+    "1696443028428139:213746": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans-LightItalic.ttf",
+                "hash": "973ce415d2d09ac64931de57471c5bca"
+            }
+        }
+    },
+    "1696443028429171:213747": {
+        "IFileManager": {
+            "path": "Files/File_1696443028429171_213747.ttf"
+        }
+    },
+    "1696443028434210:213748": {
+        "IResourceController": {
+            "name": "OpenSans-LightItalic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028434230:213749",
+            "fileId": "1696443028429171:213747",
+            "publicId": "1696443028428139:213746",
+            "expected_hash": "973ce415d2d09ac64931de57471c5bca"
+        },
+        "IResourceManager": {
+            "uid": "1696443028434230:213749",
+            "name": "Files/File_1696443028429171_213747.ttf",
+            "flags": 1
+        }
+    }
+}

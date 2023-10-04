@@ -1,0 +1,33 @@
+{
+    "1696443028770435:214049": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_SemiCondensed-Light.ttf",
+                "hash": "5da824191440c3d9578f2840ac52255a"
+            }
+        }
+    },
+    "1696443028771148:214050": {
+        "IFileManager": {
+            "path": "Files/File_1696443028771148_214050.ttf"
+        }
+    },
+    "1696443028775074:214051": {
+        "IResourceController": {
+            "name": "OpenSans_SemiCondensed-Light",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028775093:214052",
+            "fileId": "1696443028771148:214050",
+            "publicId": "1696443028770435:214049",
+            "expected_hash": "5da824191440c3d9578f2840ac52255a"
+        },
+        "IResourceManager": {
+            "uid": "1696443028775093:214052",
+            "name": "Files/File_1696443028771148_214050.ttf",
+            "flags": 1
+        }
+    }
+}

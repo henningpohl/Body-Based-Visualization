@@ -1,0 +1,33 @@
+{
+    "1696443028527604:213827": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_Condensed-Bold.ttf",
+                "hash": "f3b33fe33fea74fcdd22329902d0b69f"
+            }
+        }
+    },
+    "1696443028528348:213828": {
+        "IFileManager": {
+            "path": "Files/File_1696443028528348_213828.ttf"
+        }
+    },
+    "1696443028532801:213829": {
+        "IResourceController": {
+            "name": "OpenSans_Condensed-Bold",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028532822:213830",
+            "fileId": "1696443028528348:213828",
+            "publicId": "1696443028527604:213827",
+            "expected_hash": "f3b33fe33fea74fcdd22329902d0b69f"
+        },
+        "IResourceManager": {
+            "uid": "1696443028532822:213830",
+            "name": "Files/File_1696443028528348_213828.ttf",
+            "flags": 1
+        }
+    }
+}

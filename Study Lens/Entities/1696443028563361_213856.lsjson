@@ -1,0 +1,33 @@
+{
+    "1696443028557848:213854": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_Condensed-ExtraBold.ttf",
+                "hash": "f1feb02e6e657c988a7dbf0095977dc1"
+            }
+        }
+    },
+    "1696443028558830:213855": {
+        "IFileManager": {
+            "path": "Files/File_1696443028558830_213855.ttf"
+        }
+    },
+    "1696443028563361:213856": {
+        "IResourceController": {
+            "name": "OpenSans_Condensed-ExtraBold",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028563380:213857",
+            "fileId": "1696443028558830:213855",
+            "publicId": "1696443028557848:213854",
+            "expected_hash": "f1feb02e6e657c988a7dbf0095977dc1"
+        },
+        "IResourceManager": {
+            "uid": "1696443028563380:213857",
+            "name": "Files/File_1696443028558830_213855.ttf",
+            "flags": 1
+        }
+    }
+}

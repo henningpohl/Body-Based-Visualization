@@ -1,0 +1,33 @@
+{
+    "1696443028811031:214084": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_SemiCondensed-MediumItalic.ttf",
+                "hash": "a670f916cab052af4d4fca3d0bd689ea"
+            }
+        }
+    },
+    "1696443028811781:214085": {
+        "IFileManager": {
+            "path": "Files/File_1696443028811781_214085.ttf"
+        }
+    },
+    "1696443028815541:214086": {
+        "IResourceController": {
+            "name": "OpenSans_SemiCondensed-MediumItalic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028815561:214087",
+            "fileId": "1696443028811781:214085",
+            "publicId": "1696443028811031:214084",
+            "expected_hash": "a670f916cab052af4d4fca3d0bd689ea"
+        },
+        "IResourceManager": {
+            "uid": "1696443028815561:214087",
+            "name": "Files/File_1696443028811781_214085.ttf",
+            "flags": 1
+        }
+    }
+}

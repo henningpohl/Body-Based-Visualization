@@ -1,0 +1,33 @@
+{
+    "1696443028586407:213881": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_Condensed-Italic.ttf",
+                "hash": "a940a86361a2d21fcb06efa2b2bd3fe0"
+            }
+        }
+    },
+    "1696443028587342:213882": {
+        "IFileManager": {
+            "path": "Files/File_1696443028587342_213882.ttf"
+        }
+    },
+    "1696443028591774:213883": {
+        "IResourceController": {
+            "name": "OpenSans_Condensed-Italic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028591791:213884",
+            "fileId": "1696443028587342:213882",
+            "publicId": "1696443028586407:213881",
+            "expected_hash": "a940a86361a2d21fcb06efa2b2bd3fe0"
+        },
+        "IResourceManager": {
+            "uid": "1696443028591791:213884",
+            "name": "Files/File_1696443028587342_213882.ttf",
+            "flags": 1
+        }
+    }
+}

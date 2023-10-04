@@ -1,0 +1,33 @@
+{
+    "1696443028743169:214022": {
+        "IResourceController": {
+            "public": {
+                "path": "Open Sans/OpenSans_SemiCondensed-ExtraBoldItalic.ttf",
+                "hash": "a5c212939ca5081e2888cee7c408bd3c"
+            }
+        }
+    },
+    "1696443028743901:214023": {
+        "IFileManager": {
+            "path": "Files/File_1696443028743901_214023.ttf"
+        }
+    },
+    "1696443028747519:214024": {
+        "IResourceController": {
+            "name": "OpenSans_SemiCondensed-ExtraBoldItalic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1696443028747537:214025",
+            "fileId": "1696443028743901:214023",
+            "publicId": "1696443028743169:214022",
+            "expected_hash": "a5c212939ca5081e2888cee7c408bd3c"
+        },
+        "IResourceManager": {
+            "uid": "1696443028747537:214025",
+            "name": "Files/File_1696443028743901_214023.ttf",
+            "flags": 1
+        }
+    }
+}
