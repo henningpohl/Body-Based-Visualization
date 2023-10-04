@@ -22,7 +22,7 @@ dd { margin: 0 0 0.5em 0; padding: 0 0 0.5em 0; }
 
 <ul>
 {% for _, row in data.iterrows() %}
-<li>{{row['Response']}} <i>({{row['Prolific']}})</i></li>
+<li>{{row['Response']}} <i>({{row['Prolific']}} - {{row['PID']}})</i></li>
 {% endfor %}
 </ul>
 
@@ -37,8 +37,10 @@ dd { margin: 0 0 0.5em 0; padding: 0 0 0.5em 0; }
 comments = pd.read_csv('Questionnaire.csv')
 comments = comments.filter(regex=r'Prolific|\?')
 comments = comments.rename(columns={'Please enter your Prolific ID': 'Prolific'})
+comments['PID'] = comments['Prolific'].astype('category').cat.codes + 1
+comments['PID'] = 'P' + comments['PID'].astype('str')
 
-comments = pd.melt(comments, id_vars='Prolific', value_name='Response', var_name='Question')
+comments = pd.melt(comments, id_vars=['Prolific', 'PID'], value_name='Response', var_name='Question')
 
 with open('Comments2.html', 'w', encoding='utf8') as f:
     output = template.render(comments=comments.groupby('Question'))

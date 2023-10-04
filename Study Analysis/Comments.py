@@ -18,7 +18,7 @@ dd { margin: 0 0 0.5em 0; padding: 0 0 0.5em 0; }
 {% for comment in comments %}
 
 <div class="block">
-<h2>{{ comment[1] }}</h2>
+<h2>{{ comment[1] }} - {{ comment[6] }}</h2>
 <dl>
 <dt>How would you describe the effect of those visualizations on the conversation from your perspective?</dt>
 <dd>{{ comment[2] }}</dd>
@@ -39,6 +39,9 @@ dd { margin: 0 0 0.5em 0; padding: 0 0 0.5em 0; }
 
 comments = pd.read_csv('Questionnaire.csv')
 comments = comments.filter(regex=r'Prolific|\?')
+comments = comments.rename(columns={'Please enter your Prolific ID': 'Prolific'})
+comments['PID'] = comments['Prolific'].astype('category').cat.codes + 1
+comments['PID'] = 'P' + comments['PID'].astype('str')
 
 with open('Comments.html', 'w', encoding='utf8') as f:
     output = template.render(comments=comments.to_records())

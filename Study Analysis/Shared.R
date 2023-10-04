@@ -7,7 +7,8 @@ library(ggpubr)
 
 (function() {
   data <- read_csv('Questionnaire.csv') |>
-    rename_with(~'Prolific', contains('Prolific'))
+    rename_with(~'Prolific', contains('Prolific')) |>
+    mutate(PID = paste('P', as.integer(factor(Prolific)), sep=''))
   
   levels <- c('Strongly disagree', 'Disagree', 'Slightly disagree', 'Neutral', 'Slightly agree', 'Agree', 'Strongly agree')
   
