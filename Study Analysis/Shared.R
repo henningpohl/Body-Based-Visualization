@@ -15,6 +15,7 @@ library(ggpubr)
   data |>
     select(PID, Prolific, contains('<element>')) |>
     pivot_longer(-Prolific, values_to='Response', names_pattern='(I liked|I think|The).+ \\[(.+)\\]', names_to=c('Question', 'Element')) |>
+    drop_na(Question) |>
     mutate(Question = case_match(Question, 'I liked' ~ 'Liked', 'I think' ~ 'Useful', 'The' ~ 'Distracting')) |>
     mutate(Element = str_to_title(Element)) |>
     mutate(Response = factor(Response, ordered=TRUE, levels=levels)) ->>
