@@ -33,17 +33,3 @@ library(ggpubr)
     comments
 })()
 
-tibble(level = levels(elementRatings$Response)) |>
-  mutate(level = str_replace(level, ' ', '\n')) |>
-  mutate(level = factor(level, levels=level)) |>
-  mutate(width = str_count(level)) |>
-  mutate(color = cr_choose_bw(RColorBrewer::brewer.pal(7, 'RdBu'))) |>
-  ggplot(aes(x=level, y=0, fill=level, label=level)) +
-  geom_tile(color='white') +
-  geom_text(position=position_stack(vjust=0.5), 
-            color=cr_choose_bw(RColorBrewer::brewer.pal(7, 'RdBu')), 
-            fontface='bold', size=2.4) +
-  scale_fill_brewer(palette='RdBu') +
-  theme_void(base_size=10) +
-  theme(legend.position = "none") +
-  theme(plot.margin=margin(l=0.0, r=0.0, unit='in')) -> likertLegend
