@@ -14,4 +14,4 @@ elementRatings |>
   theme_minimal(base_size=10) +
   theme(strip.background = element_blank()) +
   theme(legend.position = "right", legend.text = element_text(size=7))
-ggsave('ElementRatings.pdf', scale=1.2, width=5.5, height=2.6, units="in", device=cairo_pdf)
+ggsave('ElementRatings.pdf', scale=1.2, width=5.5, height=3.0, units="in", device=cairo_pdf)
